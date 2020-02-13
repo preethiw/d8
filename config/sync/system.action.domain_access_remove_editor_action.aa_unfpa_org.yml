@@ -1,0 +1,14 @@
+uuid: 2e993e0c-ee44-4185-a720-7fb63f7a6370
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.aa_unfpa_org
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.aa_unfpa_org
+label: 'Remove editors from the UNFPA Administrative Agent domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: aa_unfpa_org

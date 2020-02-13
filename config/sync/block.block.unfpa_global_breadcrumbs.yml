@@ -1,0 +1,22 @@
+uuid: 946c2941-f099-4908-88b5-fa448c88afab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - unfpa_global
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: unfpa_global_breadcrumbs
+theme: unfpa_global
+region: breadcrumbs
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

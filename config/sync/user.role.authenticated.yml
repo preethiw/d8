@@ -1,0 +1,26 @@
+uuid: 86a3f501-78e8-4e30-97a8-8299524fe7f0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site map'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'unfpa global view annual report 2018 page'
+  - 'unfpa global view fgm campaign page'
+  - 'unfpa global view swop report 2018 page'
+  - 'unfpa global view swop report 2019 page'
+  - 'use text format filtered_html'
+  - 'view field_news_type'
+  - 'view media'
+  - 'view sowp reports'
+  - 'view strategic plan report'

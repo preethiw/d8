@@ -1,0 +1,14 @@
+uuid: e6dd3f7d-c1b2-4be8-b5f2-18f008b43c79
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.evaluation_group
+  module:
+    - user
+id: user_remove_role_action.evaluation_group
+label: 'Remove the Evaluation group role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: evaluation_group

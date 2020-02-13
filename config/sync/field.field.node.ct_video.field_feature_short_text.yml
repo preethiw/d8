@@ -1,0 +1,19 @@
+uuid: 0b4332bd-57ba-4453-aab0-34f2fd026888
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feature_short_text
+    - node.type.ct_video
+id: node.ct_video.field_feature_short_text
+field_name: field_feature_short_text
+entity_type: node
+bundle: ct_video
+label: 'Feature Short Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

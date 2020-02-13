@@ -1,0 +1,18 @@
+uuid: 1f02ef7b-7485-4efe-9a10-97d744fdeeb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.publish_on
+field_name: publish_on
+entity_type: node
+bundle: ct_donor
+label: 'Publish on'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

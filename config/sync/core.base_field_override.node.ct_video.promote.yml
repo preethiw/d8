@@ -1,0 +1,22 @@
+uuid: 5b84f510-5a24-4f3e-a959-6b523b2e2069
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_video
+id: node.ct_video.promote
+field_name: promote
+entity_type: node
+bundle: ct_video
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

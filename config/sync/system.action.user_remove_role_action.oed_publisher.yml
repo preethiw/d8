@@ -1,0 +1,14 @@
+uuid: ad545079-d732-4279-87c1-84a71a567002
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.oed_publisher
+  module:
+    - user
+id: user_remove_role_action.oed_publisher
+label: 'Remove the OED publisher role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: oed_publisher

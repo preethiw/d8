@@ -1,0 +1,32 @@
+/**** MIXIN *****/
+
+//RESPONSIVE IMAGE
+@mixin responsive{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+//TRANSITIONS
+@mixin transitions($prop:all, $sec:0.5s, $func:ease, $del:0s){
+  transition: $prop $sec $func $del;
+}
+
+//HIDE & SHOW
+@mixin hide{
+  opacity:0;
+  visibility:hidden;
+}
+@mixin show{
+  opacity:1;
+  visibility:visible;
+}
+
+//Clearfix
+@mixin clearfix{
+  &:after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+}

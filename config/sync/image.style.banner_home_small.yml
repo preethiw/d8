@@ -1,0 +1,15 @@
+uuid: 2cf40597-ffaf-4911-be70-3089ed380cd0
+langcode: en
+status: true
+dependencies: {  }
+name: banner_home_small
+label: 'Banner Home Small'
+effects:
+  3dca6ed4-f1fa-4b23-9c3c-738fbf14ecb2:
+    uuid: 3dca6ed4-f1fa-4b23-9c3c-738fbf14ecb2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 96
+      anchor: center-center

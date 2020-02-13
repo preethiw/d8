@@ -1,0 +1,15 @@
+uuid: b526effd-21b7-4351-abc9-ae1a2a880c43
+langcode: en
+status: true
+dependencies: {  }
+name: table-2-col-image
+label: Table-2-col-image
+effects:
+  7db146f3-1df8-4ce8-aab8-fa85eca41f37:
+    uuid: 7db146f3-1df8-4ce8-aab8-fa85eca41f37
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 374
+      height: 225
+      anchor: center-center

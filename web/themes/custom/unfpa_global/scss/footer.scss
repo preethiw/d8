@@ -1,0 +1,150 @@
+@import "variables";
+
+/* //footer starts */
+.footerWrapper {
+  background-color: #3f3f3f;
+  width: 100%;
+  padding: 2em 0;
+  position: absolute;
+  bottom: 0px;
+
+  .logo {
+      margin: 0 0 25px 0;
+
+      @media ($smart) {
+        margin: 0 0 35px 10px;
+      }
+  }
+
+  p {
+    font-size: 0.75em;
+    color: $navchild-link;
+    margin: 0;
+    padding: 0 0 5px 0;
+  }
+
+  .row {
+    padding: 1.2em 0;
+  }
+  .row.wrap {
+    border-bottom: 1px #545454 solid;
+  }
+  .row.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media ($smart) {
+      flex-wrap: wrap;
+      justify-content: left;
+      align-items: start;
+      flex-direction: column-reverse;
+    }
+  }
+  .footerlinks {
+    list-style: none;
+    column-count: 2;
+
+    li {
+      margin: 0px 5px;
+    }
+    li a {
+      font-size: 0.75em;
+      color: $navchild-link;
+      display: block;
+      padding: 2px;
+      transition: 0.5s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* //top nav donnate button starts */
+  a.donate {
+    background-color: $white;
+    height: 60px;
+    padding: 20px 30px 20px 50px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: $primary-color;
+    font-weight: 400;
+    display: inline-flex;
+    border-radius: 6px;
+    left: 0;
+
+    &:hover {
+      color: $primary-color;
+      background-color: $grey-lightest;
+    }
+
+    @media ($mobilnav) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      margin: 25px 5px 0 5px;
+      min-width: 160px;
+    }
+
+    span {
+      display: inline;
+
+      &.icon {
+        width: 30px;
+        height: 25px;
+        margin-left: 10px;
+      }
+    }
+  } /* //top nav donnate button end */
+
+  .social-follow {
+    display: inline-flex;
+
+    @media ($smart) {
+      margin: 25px 5px;
+    }
+
+    span {
+      margin-right: 15px;
+      color: $navchild-link;
+      font-size: 0.8em;
+    }
+    a {
+      width: 25px;
+      height: 18px;
+      display: block;
+      margin-left: 15px;
+      outline: none;
+      text-align: center;
+      text-indent: -1000px;
+    }
+  }
+
+  .mailing-box {
+    display: inline-flex;
+
+    input[type="email"] {
+      border: 1px #545454 solid;
+      padding: 5px 10px;
+      font-size: 0.75em;
+      background: transparent;
+
+      @media ($smart) {
+        min-width: 210px;
+      }
+    }
+    button[type="submit"] {
+      text-align: center;
+      font-size: 0.8em;
+      color: $white;
+      font-weight: 600;
+      padding: 10px;
+      background: transparent;
+      border: 0;
+      text-transform: uppercase;
+    }
+  }
+}

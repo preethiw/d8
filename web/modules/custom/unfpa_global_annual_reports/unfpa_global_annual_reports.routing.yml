@@ -1,0 +1,39 @@
+unfpa_global_annual_reports.annual_report_2014:
+ path: '/annual-report-2014'
+ defaults:
+   _title: 'Annual report 2014'
+   _controller: '\Drupal\unfpa_global_annual_reports\Controller\AnnualReportController::unfpa_global_annual_reports_2014'
+ requirements:
+   _permission: 'access content'
+
+unfpa_global_annual_reports.annual_report_2015:
+ path: '/annual-report-2015'
+ defaults:
+   _title: 'Annual report 2015'
+   _controller: '\Drupal\unfpa_global_annual_reports\Controller\AnnualReportController::unfpa_global_annual_reports_2015'
+ requirements:
+   _permission: 'access content'
+
+unfpa_global_annual_reports.annual_report_2016:
+ path: '/annual-report-2016'
+ defaults:
+   _title: 'Annual report 2016'
+   _controller: '\Drupal\unfpa_global_annual_reports\Controller\AnnualReportController::unfpa_global_annual_reports_2016'
+ requirements:
+   _permission: 'access content'
+
+unfpa_global_annual_reports.annual_report_2017:
+ path: '/annual-report-2017'
+ defaults:
+   _title: 'Annual report 2017'
+   _controller: '\Drupal\unfpa_global_annual_reports\Controller\AnnualReportController::unfpa_global_annual_reports_2017'
+ requirements:
+   _permission: 'access content'
+
+unfpa_global_annual_reports.annual_report_2018:
+ path: '/annual-report-2018'
+ defaults:
+   _title: 'Annual report 2018'
+   _controller: '\Drupal\unfpa_global_annual_reports\Controller\AnnualReportController::unfpa_global_annual_reports_2018'
+ requirements:
+   _permission: 'access content'

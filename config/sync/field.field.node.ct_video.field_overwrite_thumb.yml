@@ -1,0 +1,23 @@
+uuid: 6c045b4a-de79-4891-94d5-1e04bca26f6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_overwrite_thumb
+    - node.type.ct_video
+id: node.ct_video.field_overwrite_thumb
+field_name: field_overwrite_thumb
+entity_type: node
+bundle: ct_video
+label: 'Overwrite Thumb Image'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: '1'
+  off_label: '0'
+field_type: boolean

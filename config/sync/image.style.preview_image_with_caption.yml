@@ -1,0 +1,15 @@
+uuid: 4cba7069-1e69-4fa9-9858-3f528a5657cc
+langcode: en
+status: true
+dependencies: {  }
+name: preview_image_with_caption
+label: 'Preview image with caption'
+effects:
+  190b8187-6274-4bf7-8187-e32d02f413bb:
+    uuid: 190b8187-6274-4bf7-8187-e32d02f413bb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 180
+      anchor: center-center

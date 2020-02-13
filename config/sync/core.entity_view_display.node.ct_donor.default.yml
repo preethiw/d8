@@ -1,0 +1,66 @@
+uuid: 37ea44ee-c503-4d18-bf20-40c9d1182968
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_donor.body
+    - field.field.node.ct_donor.field_domain_access
+    - field.field.node.ct_donor.field_domain_all_affiliates
+    - field.field.node.ct_donor.field_domain_source
+    - field.field.node.ct_donor.field_donor_iso_code
+    - field.field.node.ct_donor.field_image
+    - field.field.node.ct_donor.field_metatag
+    - field.field.node.ct_donor.field_related_tags
+    - node.type.ct_donor
+  module:
+    - image
+    - text
+    - user
+id: node.ct_donor.default
+targetEntityType: node
+bundle: ct_donor
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_donor_iso_code:
+    label: above
+    weight: 3
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: above
+    weight: 1
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_related_tags:
+    label: above
+    weight: 2
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_metatag: true
+  langcode: true

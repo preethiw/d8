@@ -1,0 +1,20 @@
+uuid: 7a34a470-278d-4e17-a60e-6f89a203cde1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+  module:
+    - path
+id: node.ct_donor.path
+field_name: path
+entity_type: node
+bundle: ct_donor
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,28 @@
+uuid: b151f2ac-235c-4420-b8c1-577716892778
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_re
+    - media.type.image
+    - node.type.article
+id: node.article.field_re
+field_name: field_re
+entity_type: node
+bundle: article
+label: 'Ref image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

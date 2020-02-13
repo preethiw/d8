@@ -1,0 +1,9 @@
+uuid: 172e596d-d1f1-4e75-aaeb-a94248e41104
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow_images
+label: 'Slideshow images'
+icon_uuid: null
+description: 'Migrated from field_collection field_slideshow_images'
+behavior_plugins: {  }

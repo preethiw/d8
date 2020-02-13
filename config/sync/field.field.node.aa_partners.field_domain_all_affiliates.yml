@@ -1,0 +1,21 @@
+uuid: a644a510-4659-4046-98da-2c8a6a680691
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.aa_partners
+id: node.aa_partners.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: aa_partners
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

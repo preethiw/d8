@@ -1,0 +1,18 @@
+uuid: 2010bd17-f3ca-4224-88b4-dbd9b64bbba8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'AA: Partners'
+type: aa_partners
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

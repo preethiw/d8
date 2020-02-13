@@ -1,0 +1,19 @@
+uuid: c17b04d9-4fc7-4bf9-aef8-5fd1c4bec31f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ssc_enrollment_girls
+    - node.type.ct_global_country
+id: node.ct_global_country.field_ssc_enrollment_girls
+field_name: field_ssc_enrollment_girls
+entity_type: node
+bundle: ct_global_country
+label: 'SSC enrollment Girls'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

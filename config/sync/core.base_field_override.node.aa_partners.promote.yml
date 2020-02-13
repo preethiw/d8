@@ -1,0 +1,22 @@
+uuid: f5fd50d2-17bd-47a8-8244-46808cf79f55
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+id: node.aa_partners.promote
+field_name: promote
+entity_type: node
+bundle: aa_partners
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

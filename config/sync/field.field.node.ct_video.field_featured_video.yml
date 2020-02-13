@@ -1,0 +1,23 @@
+uuid: 277b4d4e-f506-4690-b21e-cb4f826300d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_video
+    - node.type.ct_video
+id: node.ct_video.field_featured_video
+field_name: field_featured_video
+entity_type: node
+bundle: ct_video
+label: 'Featured video on video landing page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: '1'
+  off_label: '0'
+field_type: boolean

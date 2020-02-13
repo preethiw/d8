@@ -1,0 +1,23 @@
+uuid: 49d6b9ff-5a51-49af-947d-5af39dc544ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_feature
+    - node.type.ct_video
+  module:
+    - options
+id: node.ct_video.field_show_feature
+field_name: field_show_feature
+entity_type: node
+bundle: ct_video
+label: 'Show Feature'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'no'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

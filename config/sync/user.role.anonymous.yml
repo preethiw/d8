@@ -1,0 +1,37 @@
+uuid: 3b1703cb-bc9f-4351-89bb-d5d926a7f82b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site map'
+  - 'create sowp_sharecards content on assigned domains'
+  - 'create sowp_story content on assigned domains'
+  - 'delete sowp_story content on assigned domains'
+  - 'search content'
+  - 'unfpa global view annual report 2017 page'
+  - 'unfpa global view annual report 2018 page'
+  - 'unfpa global view fgm campaign page'
+  - 'unfpa global view swop report 2018 page'
+  - 'unfpa global view swop report 2019 page'
+  - 'unfpa global view youth page'
+  - 'update sowp_sharecards content on assigned domains'
+  - 'update sowp_story content on assigned domains'
+  - 'view field_feature_banner_image'
+  - 'view field_feature_short_text'
+  - 'view field_feature_title'
+  - 'view field_format'
+  - 'view field_news_type'
+  - 'view field_publish_on_home'
+  - 'view field_show_feature'
+  - 'view field_thematic_area'
+  - 'view media'
+  - 'view sowp reports'
+  - 'view strategic plan report'

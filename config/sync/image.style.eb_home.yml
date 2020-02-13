@@ -1,0 +1,15 @@
+uuid: a9c88475-47ef-48b5-b6c1-b2677ffe9a59
+langcode: en
+status: true
+dependencies: {  }
+name: eb_home
+label: 'EB home'
+effects:
+  c9cbb482-3dba-45d7-9785-9d4126a331ac:
+    uuid: c9cbb482-3dba-45d7-9785-9d4126a331ac
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 112
+      anchor: center-center

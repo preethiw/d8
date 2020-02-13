@@ -1,0 +1,18 @@
+uuid: 4e439f49-a344-4d41-a56e-190ed5374836
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_present_ed
+field_name: field_present_ed
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

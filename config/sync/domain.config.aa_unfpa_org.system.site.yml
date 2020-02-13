@@ -1,0 +1,9 @@
+name: 'UNFPA Administrative Agent'
+mail: subhash.yadav@gmail.com
+slogan: 'UNFPA For Administrative Agents'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100

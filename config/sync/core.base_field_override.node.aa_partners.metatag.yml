@@ -1,0 +1,18 @@
+uuid: f198929d-630a-43fe-865d-b88a2e3b9abb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+id: node.aa_partners.metatag
+field_name: metatag
+entity_type: node
+bundle: aa_partners
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

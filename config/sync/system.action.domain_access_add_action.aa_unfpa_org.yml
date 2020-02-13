@@ -1,0 +1,14 @@
+uuid: b073b03d-214e-4141-98a4-085accb7a41d
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.aa_unfpa_org
+  module:
+    - domain_access
+id: domain_access_add_action.aa_unfpa_org
+label: 'Add selected content to the UNFPA Administrative Agent domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: aa_unfpa_org

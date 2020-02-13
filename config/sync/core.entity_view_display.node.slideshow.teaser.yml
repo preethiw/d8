@@ -1,0 +1,64 @@
+uuid: 33e6be11-4bb4-404d-b36a-df0bdd30e7e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slideshow.body
+    - field.field.node.slideshow.field_blurb
+    - field.field.node.slideshow.field_date
+    - field.field.node.slideshow.field_domain_access
+    - field.field.node.slideshow.field_domain_all_affiliates
+    - field.field.node.slideshow.field_domain_source
+    - field.field.node.slideshow.field_feature_banner_image
+    - field.field.node.slideshow.field_feature_short_text
+    - field.field.node.slideshow.field_feature_title
+    - field.field.node.slideshow.field_homepage_display_images
+    - field.field.node.slideshow.field_metatag
+    - field.field.node.slideshow.field_publish_on_home
+    - field.field.node.slideshow.field_related_tags
+    - field.field.node.slideshow.field_show_feature
+    - field.field.node.slideshow.field_slideshow_images
+    - field.field.node.slideshow.field_thematic_area
+    - node.type.slideshow
+  module:
+    - user
+id: node.slideshow.teaser
+targetEntityType: node
+bundle: slideshow
+mode: teaser
+content:
+  field_domain_access:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  langcode:
+    type: language
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_blurb: true
+  field_date: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_feature_banner_image: true
+  field_feature_short_text: true
+  field_feature_title: true
+  field_homepage_display_images: true
+  field_metatag: true
+  field_publish_on_home: true
+  field_related_tags: true
+  field_show_feature: true
+  field_slideshow_images: true
+  field_thematic_area: true
+  links: true

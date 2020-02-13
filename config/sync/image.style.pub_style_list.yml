@@ -1,0 +1,15 @@
+uuid: 7630eadb-ccc6-46a3-8222-c4d7759ea7cc
+langcode: en
+status: true
+dependencies: {  }
+name: pub_style_list
+label: 'Pub List'
+effects:
+  d998ab74-d87d-40cb-8706-401bd23d7e43:
+    uuid: d998ab74-d87d-40cb-8706-401bd23d7e43
+    id: image_scale
+    weight: 2
+    data:
+      width: 180
+      height: null
+      upscale: false

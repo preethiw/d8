@@ -1,0 +1,34 @@
+//COLOR
+$logo: #a4a4a4;
+$primary-color: #000000;
+$orange-color: #f7941e;
+$navbar-color: #434343;
+$navbar-hover: #3a3939;
+$navchild-link: #ababab;
+$footer-grey: #3f3f3f;
+$white: #FFFFFF;
+
+$grey-light: #d1d1d1;
+$grey-lightest: #f2f2f2;
+$grey-dark: #2d2d2d;
+$greybg-color: #f2f2f2;
+$home-events-title-color: #d6d6d6;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700');
+
+$roboto: Roboto, sans-serif;
+
+
+//DEVICE
+$thin:"max-height:600px";
+$tall:"min-height:601px";
+$hugescreen: "min-width:2000px";
+$bigscreen: "min-width:1600px";
+$desktop: "min-width:980px";
+$smallscreen: "max-width:1200px";
+$tablet: "max-width:980px";
+$mobilnav: "max-width:1090px";
+$smart: "max-width:740px";
+$smallsmart: "max-width: 575.98px";

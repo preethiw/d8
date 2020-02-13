@@ -1,0 +1,14 @@
+uuid: 258f582a-4c5a-41cb-bbc8-f59a7ac455bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.human_resources_drafting
+  module:
+    - user
+id: user_remove_role_action.human_resources_drafting
+label: 'Remove the Human resources drafting role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: human_resources_drafting

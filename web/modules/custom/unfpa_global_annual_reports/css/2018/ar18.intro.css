@@ -1,0 +1,139 @@
+.ar18-cover {
+  background: #fff;
+}
+
+.ar18-cover .ar18-section-head-img-mobile {
+  background-position: center bottom;
+}
+
+.ar18-cover .ar18-section-name {
+  padding: 0;
+}
+
+.ar18-cover .ar18-intro-title-1 {
+  display: block;
+  color: #ffffff;
+  font-size: 67px;
+  line-height: 67px;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+.ar18-cover .ar18-intro-title-2 {
+  display: block;
+  color: #f9a801;
+  font-size: 53px;
+  line-height: 53px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  padding-left: 4px;
+}
+
+.ar18-cover .ar18-intro-subtitle {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 21px;
+  margin: 8px 0 38px 9px;
+  letter-spacing: 0.4px;
+}
+
+.ar18-intro-share-dl {
+  overflow: hidden;
+}
+
+.ar18-cover .ar18-sharelink {
+  float: left;
+}
+
+.ar18-cover .ar18-intro-download {
+  float: left;
+  padding: 10px 0 0 20px;
+  color: #f9a801;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.i18n-fr .ar18-cover .ar18-intro-download {
+  padding: 0 0 0 20px;
+}
+
+.ar18-cover .ar18-intro-download a {
+  color: inherit;
+}
+.ar18-cover .ar18-section-head .ar18-photo-credit {
+  top: auto;
+  right: auto;
+  bottom: 12px;
+  width: 100%;
+}
+
+@media all and (max-width: 380px) {
+  .i18n-fr .ar18-cover .ar18-intro-download {
+    padding: 0 0 0 20px;
+    font-size: 21px;
+    line-height: 28px;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .ar18-cover .ar18-section-head-content {
+    float: right;
+    padding-top: 20%;
+  }
+
+  .ar18-cover .ar18-intro-title-1 {
+    font-size: 76px;
+    line-height: 76px;
+  }
+
+  .ar18-cover .ar18-intro-title-2 {
+    font-size: 61px;
+    line-height: 61px;
+  }
+
+  .ar18-cover .ar18-intro-subtitle {
+    font-size: 23px;
+    line-height: 24px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .ar18-cover .ar18-intro-title-1 {
+    font-size: 93px;
+    line-height: 93px;
+    padding-bottom: 0;
+  }
+
+  .ar18-cover .ar18-intro-title-2 {
+    font-size: 75px;
+    line-height: 76px;
+  }
+
+  .ar18-cover .ar18-intro-subtitle {
+    font-size: 28px;
+    line-height: 29px;
+    margin: 10px 0 38px 9px;
+    letter-spacing: 0.4px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  .ar18-cover .ar18-intro-title-1 {
+    font-size: 101px;
+    line-height: 101px;
+    padding-bottom: 0;
+  }
+
+  .ar18-cover .ar18-intro-title-2 {
+    font-size: 81px;
+    line-height: 82px;
+  }
+
+  .ar18-cover .ar18-intro-subtitle {
+    font-size: 30px;
+    line-height: 31px;
+    margin: 10px 0 38px 9px;
+    letter-spacing: 0.4px;
+  }
+}

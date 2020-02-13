@@ -1,0 +1,21 @@
+uuid: 1deb090a-2258-4ebb-a2ec-9cc7c832abd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.ct_languages
+  module:
+    - metatag
+id: node.ct_languages.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: ct_languages
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

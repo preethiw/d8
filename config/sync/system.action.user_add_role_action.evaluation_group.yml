@@ -1,0 +1,14 @@
+uuid: 0192a07a-f69b-438a-9f72-cc9421218487
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.evaluation_group
+  module:
+    - user
+id: user_add_role_action.evaluation_group
+label: 'Add the Evaluation group role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: evaluation_group

@@ -1,0 +1,8 @@
+uuid: ba59d408-8734-4b5e-a731-ea68ac2e0838
+langcode: en
+status: true
+dependencies: {  }
+name: 'Goodwill Ambassador'
+vid: goodwill_ambassador
+description: ''
+weight: 0

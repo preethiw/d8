@@ -1,0 +1,15 @@
+uuid: 8fe4466e-f972-4ca9-aa95-1f6efba8d7b3
+langcode: en
+status: true
+dependencies: {  }
+name: safebirth_news_home
+label: 'safebirth news home'
+effects:
+  7917b3b6-60f3-412a-bf7f-02dc7314fae4:
+    uuid: 7917b3b6-60f3-412a-bf7f-02dc7314fae4
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: null
+      upscale: false

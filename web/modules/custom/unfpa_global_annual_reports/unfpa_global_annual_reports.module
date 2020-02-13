@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Annual reports integration.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function unfpa_global_annual_reports_theme($existing, $type, $theme, $path) {
+  $module_handler = \Drupal::service('module_handler');
+  $base_url = $GLOBALS['base_url'];
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $module_path = $GLOBALS['base_url'] . '/' . $module_handler->getModule('unfpa_global_annual_reports')->getPath();
+  if ($language == 'en') {
+    $sare_path_2018 = $module_path . '/images/2018/share';
+  }
+  else {
+    $sare_path_2018 = $module_path . '/images/2018/share/' . $language;
+  }
+  return [
+    'annual_reports_2014_template' => [
+      'variables' => [
+        'module_path' => $module_path,
+        'base_url' => $base_url,
+        'language' => $language,
+      ],
+      'template' => 'annual_reports_2014',
+    ],
+    'annual_reports_2015_template' => [
+      'variables' => [
+        'module_path' => $module_path,
+        'base_url' => $base_url,
+        'language' => $language,
+      ],
+      'template' => 'annual_reports_2015',
+    ],
+    'annual_reports_2016_template' => [
+      'variables' => [
+        'module_path' => $module_path,
+        'base_url' => $base_url,
+        'language' => $language,
+      ],
+      'template' => 'annual_reports_2016',
+    ],
+    'annual_reports_2017_template' => [
+      'variables' => [
+        'module_path' => $module_path,
+        'base_url' => $base_url,
+        'language' => $language,
+      ],
+      'template' => 'annual_reports_2017',
+    ],
+    'annual_reports_2018_template' => [
+      'variables' => [
+        'module_path' => $module_path,
+        'base_url' => $base_url,
+        'language' => $language,
+        'sare_path' => $sare_path_2018,
+      ],
+      'template' => 'annual_reports_2018',
+    ],
+  ];
+}

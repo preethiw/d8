@@ -1,0 +1,19 @@
+uuid: 34f32c68-b201-481d-a74b-3528e6a39c0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language_code
+    - node.type.ct_languages
+id: node.ct_languages.field_language_code
+field_name: field_language_code
+entity_type: node
+bundle: ct_languages
+label: 'Language Code'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

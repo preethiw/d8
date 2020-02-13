@@ -1,0 +1,23 @@
+uuid: aa2cfe5b-ae34-4425-9084-a8a3120632be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_open_data_portal_url
+    - node.type.ct_global_country
+  module:
+    - link
+id: node.ct_global_country.field_open_data_portal_url
+field_name: field_open_data_portal_url
+entity_type: node
+bundle: ct_global_country
+label: 'Open Data Portal URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

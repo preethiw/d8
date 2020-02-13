@@ -1,0 +1,21 @@
+uuid: adea8231-c1ba-4a39-80fe-5acc164d0dfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.aa_partners
+  module:
+    - metatag
+id: node.aa_partners.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: aa_partners
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

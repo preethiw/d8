@@ -1,0 +1,15 @@
+uuid: c5f352bd-2b2a-4a91-916d-bb9defb364d4
+langcode: en
+status: true
+dependencies: {  }
+name: employee
+label: Employee
+effects:
+  005b4461-f33e-44e4-b29b-0d832ae6f6d1:
+    uuid: 005b4461-f33e-44e4-b29b-0d832ae6f6d1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 470
+      height: 350
+      anchor: center-center

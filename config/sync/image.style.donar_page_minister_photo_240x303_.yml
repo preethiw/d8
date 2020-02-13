@@ -1,0 +1,15 @@
+uuid: 5998c146-6b76-4675-af88-88f5c83b50fd
+langcode: en
+status: true
+dependencies: {  }
+name: donar_page_minister_photo_240x303_
+label: 'Donar page minister photo(240x303)'
+effects:
+  d5c8662b-e6c9-4ceb-907d-9c223ffde1f3:
+    uuid: d5c8662b-e6c9-4ceb-907d-9c223ffde1f3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 240
+      height: 303
+      anchor: center-center

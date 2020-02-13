@@ -1,0 +1,15 @@
+uuid: 5f253d87-7015-4c5b-bd48-3b1b9ae3f212
+langcode: en
+status: true
+dependencies: {  }
+name: video_listing_thumb
+label: 'Video Listing Thumb'
+effects:
+  c4004a41-8460-4b2b-84f0-536c9051d2ca:
+    uuid: c4004a41-8460-4b2b-84f0-536c9051d2ca
+    id: image_scale
+    weight: 2
+    data:
+      width: 222
+      height: null
+      upscale: false

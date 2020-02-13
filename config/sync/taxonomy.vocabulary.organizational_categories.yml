@@ -1,0 +1,8 @@
+uuid: 590b4ac6-b5f9-4d21-afe8-490a2ac3c2d9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Organizational Categories'
+vid: organizational_categories
+description: ''
+weight: 0

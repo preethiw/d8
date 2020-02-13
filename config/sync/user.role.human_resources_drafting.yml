@@ -1,0 +1,40 @@
+uuid: cef711ac-01fe-4454-8486-078bce51cdd4
+langcode: en
+status: true
+dependencies: {  }
+id: human_resources_drafting
+label: 'Human resources drafting'
+weight: 12
+is_admin: null
+permissions:
+  - 'access ckeditor link'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access workbench'
+  - 'access workbench access by role'
+  - 'add media from remote sources'
+  - 'create ct_jobs content'
+  - 'create ct_jobs content on assigned domains'
+  - 'delete own ct_jobs content'
+  - 'edit media'
+  - 'edit own ct_jobs content'
+  - 'import media'
+  - 'moderate content from draft to needs_review'
+  - 'moderate content from needs_review to draft'
+  - 'publish from default domain'
+  - 'publish to any assigned domain'
+  - 'set domain access'
+  - 'show format selection for node'
+  - 'translate content'
+  - 'update ct_jobs content on assigned domains'
+  - 'use text format custom_html'
+  - 'use text format full_html'
+  - 'use workbench_moderation my drafts tab'
+  - 'use workbench_moderation needs review tab'
+  - 'view all unpublished content'
+  - 'view moderation history'
+  - 'view moderation messages'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'
+  - 'view unpublished domain content'

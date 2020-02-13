@@ -1,0 +1,18 @@
+uuid: 0b78bb56-daca-4378-92e4-d446b344960d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.changed
+field_name: changed
+entity_type: node
+bundle: ct_donor
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

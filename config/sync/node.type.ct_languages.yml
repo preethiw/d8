@@ -1,0 +1,16 @@
+uuid: 1c2d689e-7595-4a71-a541-843e65699d48
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Languages
+type: ct_languages
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

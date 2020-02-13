@@ -1,0 +1,15 @@
+uuid: 78840a0f-f56b-47fa-8e83-67e47ee3394c
+langcode: en
+status: true
+dependencies: {  }
+name: event_detail_new
+label: 'Event Detail New'
+effects:
+  19f3d10f-2a1f-4e36-b764-2a3a0af06ee5:
+    uuid: 19f3d10f-2a1f-4e36-b764-2a3a0af06ee5
+    id: image_scale
+    weight: 1
+    data:
+      width: 578
+      height: null
+      upscale: true

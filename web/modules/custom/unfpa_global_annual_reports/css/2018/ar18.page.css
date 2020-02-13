@@ -1,0 +1,557 @@
+/*
+ * .-----------------------------------------------------.
+ * |                        FONTS                        |
+ * '-----------------------------------------------------'
+ */
+
+@font-face {
+  font-family: 'activeregular';
+  src: url('../fonts/active-regular.woff2') format('woff2'), url('../fonts/active-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ar18,
+.ar18 .reg-font {
+  font-family: robotoregular, sans-serif;
+}
+
+.ar18 .sb-font {
+  font-family: robotomedium, sans-serif;
+}
+
+.ar18 .b-font,
+.ar18 strong {
+  font-family: robotobold, sans-serif;
+}
+
+.ar18 .i-font {
+  font-family: robotoitalic, sans-serif;
+}
+
+.ar18 .light-font {
+  font-family: robotolight, sans-serif;
+}
+
+.ar18 .bk-font {
+  font-family: robotoblack, sans-serif;
+}
+
+.ar18 .conr-font,
+.ar18 .conr-coni-font {
+  font-family: roboto_condensedregular, sans-serif;
+}
+
+.ar18 .conb-font,
+.ar18 .conb-conr-font {
+  font-family: roboto_condensedbold, sans-serif;
+}
+
+.ar18 .coni-font {
+  font-family: roboto_condenseditalic, sans-serif;
+}
+
+.ar18 .conl-font {
+  font-family: roboto_condensedlight, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .ar18 .conb-conr-font {
+    font-family: roboto_condensedregular, sans-serif;
+  }
+
+  .ar18 .conr-coni-font {
+    font-family: roboto_condenseditalic, sans-serif;
+  }
+}
+
+.ar18 .act-font {
+  font-family: activeregular, sans-serif;
+}
+
+.ar18-uppercase {
+  text-transform: uppercase;
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |            COMPATIBILITY WITH UNFPA SITE            |
+ * '-----------------------------------------------------'
+ */
+
+body {
+  min-width: 320px; 
+}
+body #header {
+  -moz-box-shadow: inset 0 -2px 0 0 #ffd451;
+  -webkit-box-shadow: inset 0 -2px 0 0 #ffd451;
+  box-shadow: inset 0 -2px 0 0 #ffd451;
+  border-bottom: 2px solid #deaa1b;
+}
+
+body #main .max_wrapper {
+  margin: 0;
+  max-width: none!important;
+  padding: 0!important;
+  background: none;
+}
+
+body.toolbar-drawer {
+  padding-top: 0!important;
+}
+
+body #main .breadcrumb,
+.btn.btn-primary,
+#page-title,
+#toolbar,
+.tabs-wrapper,
+.block-workbench {
+  display: none!important;
+}
+
+body strong {
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+}
+
+.ar18 * {
+  font-family: inherit;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ar18 h1,
+.ar18 h2,
+.ar18 h3,
+.ar18 h4,
+.ar18 h5,
+.ar18 h6 {
+  color: inherit;
+}
+
+.ar18 blockquote {
+  margin: 0;
+  padding: 0;
+  float: none;
+  width: auto;
+  border: 0;
+  background: none;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.ar18 cite {
+  margin: 0;
+  font-size: 1em;
+}
+
+.ar18 button {
+  border: 0;
+  background: none;
+  outline: 0 none;
+}
+
+.ar18 p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0.3em 0 1.5em;
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |                       GENERAL                       |
+ * '-----------------------------------------------------'
+ */
+
+/* Top level container. */
+.ar18 {
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.750em;/* 28px */
+  min-width: 320px;
+}
+
+.ar18 * {
+  outline: 0 none!important;
+}
+
+.ar18 a {
+  color: #f9a801;
+  text-decoration: none;
+}
+
+.ar18 a:hover {
+  color: #f9a801;
+  text-decoration: underline;
+}
+
+.ar18-width-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.ar18-width-wide {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.ar18-clear {
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+
+.ar18-side-padding {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ar18-section-padding {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+@media all and (min-width: 769px) {
+  .ar18-side-padding {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .ar18-section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .ar18-section-padding {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+/* --- Photo Credits --- */
+
+.ar18-photo-credit {
+  position: absolute;
+  font-size: 13px;
+  line-height: 1.2em;
+  opacity: 0.6;
+  z-index: 3;
+  color: #fff;
+}
+
+.ar18-photo-credit-white {
+  color: #fff;
+}
+
+/* --- Colors --- */
+
+.ar18-color {
+  color: #f9a801;
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |                    SECTIONS CORE                    |
+ * '-----------------------------------------------------'
+ */
+
+.ar18-section {
+  border-top: 1px solid rgba(147, 155, 158, 0.24);
+}
+
+.ar18-section:first-child {
+  border-top: 0;
+}
+
+/* Required by nav links highlighting to work properly for last section. */
+.ar18-section-last {
+  min-height: calc(100vh + 1px);
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |                   SECTIONS SHARED                   |
+ * '-----------------------------------------------------'
+ */
+
+/* --- Carousel Slider Controls --- */
+
+.ar18 .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  z-index: 2;
+  font-size: 0;
+  line-height: 0;
+}
+
+.ar18 .owl-prev,
+.ar18 .owl-next {
+  margin-left: 12px;
+  display: inline-block;
+  outline: none;
+}
+
+.ar18 .owl-prev span,
+.ar18 .owl-next span {
+  background: url(../../images/2018/page/images/icon-next.svg) 0 0 no-repeat;
+  width: 26px;
+  height: 8px;
+  text-indent: -999em;
+  overflow: hidden;
+  display: block;
+}
+
+.ar18 .owl-prev span {
+  background-image: url(../../images/2018/page/images/icon-prev.svg);
+}
+
+.ar18 .owl-dots {
+  position: absolute;
+  z-index: 2;
+  top: 1px;
+  left: 24px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.ar18 .owl-dots .owl-dot {
+  margin-right: 4px;
+  display: inline-block;
+  text-indent: -999em;
+  font-size: 0;
+  line-height: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ar18 .owl-dots .owl-dot.active {
+  background-color: #f9a801;
+}
+
+/* --- Section Header Image With Title --- */
+
+/* Section head is the area with title, background img and share icon. */
+/* It is used by Intro Cover, Indicators section and Regions. */
+
+.ar18-section-head {
+  min-height: 728px;
+  position: relative;
+  z-index: 1;
+}
+
+.ar18-indicators-head {
+  min-height: 543px;
+}
+
+.ar18-section-head-img-mobile,
+.ar18-section-head-img-desktop {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.ar18-section-head-img-desktop {
+  display: none;
+}
+
+.ar18-section-head-top-bg,
+.ar18-section-head-bottom-bg {
+  display: block;
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.ar18-section-head-content {
+  padding-top: 36px;
+  padding-bottom: 12px;
+  position: relative;
+  z-index: 3;
+}
+
+html.js .ar18-section-head-content {
+  opacity: 0;
+  transform: translateY(100px);
+  transition-delay: 0.5s;
+}
+
+html.js .ar18-section-head-content.ar18-intro-animated {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s;
+}
+
+.ar18-section-head .ar18-photo-credit {
+  right: 24px;
+  top: auto;
+  bottom: 12px;
+  opacity: 0.4;
+}
+
+h2.ar18-section-name {
+  margin: 0;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 57px;
+  padding-bottom: 20px;
+}
+
+.ar18-section-head .ar18-sharelink {
+  padding-bottom: 390px;
+}
+
+@media all and (max-width: 480px) {
+  .ar18-indicators-head .ar18-section-name {
+    font-size: 34px;
+    line-height: 46px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .ar18-section-head .ar18-photo-credit {
+    right: 24px;
+    top: auto;
+    bottom: 12px;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .ar18-section-head {
+    min-height: 0;
+    height: 0;
+    padding-bottom: 70%;
+  }
+
+  .ar18-section-head-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ar18-section-head-img-mobile,
+  .ar18-section-head-top-bg {
+    display: none;
+  }
+
+  .ar18-section-head-img-desktop {
+    display: block;
+  }
+
+  .ar18-section-head .ar18-photo-credit {
+    top: auto;
+    right: auto;
+    bottom: 26%;
+    width: 100%;
+  }
+
+  .ar18-section-head .ar18-photo-credit-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 36px;
+    text-align: right;
+  }
+
+  .ar18-section-head-content {
+    float: right;
+    width: 50%;
+    width: calc(50% - 48px);
+    padding-top: 7%;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .ar18-section-head-content {
+    padding-top: 10%;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  h2.ar18-section-name {
+    font-size: 60px;
+    line-height: 72px;
+    padding-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .ar18-section-head-content {
+    padding-top: 11%;
+  }
+
+  h2.ar18-section-name {
+    font-size: 70px;
+    line-height: 73px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .ar18-section-head-content {
+    padding-top: 15%;
+  }
+
+  h2.ar18-section-name {
+    font-size: 80px;
+    line-height: 92px;
+  }
+}
+
+/* --- Section Intro (Below Header) --- */
+
+.ar18-section-intro {
+  padding-top: 24px;
+}
+
+.ar18-section-intro p:first-child {
+  margin-top: 0;
+}
+
+.ar18-section-intro p:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (min-width: 768px) {
+  .ar18-section-intro {
+    padding-bottom: 60px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .ar18-section-intro {
+    position: relative;
+    z-index: 2;
+    margin-top: -164px;
+    padding-bottom: 60px;
+  }
+}
+.path-annual-report-2018 .main-content .section {
+  padding: 0;
+}
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+.page-header {
+  display: none;
+}

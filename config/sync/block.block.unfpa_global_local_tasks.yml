@@ -1,0 +1,22 @@
+uuid: 1a5e2ce3-1062-4e19-9d52-4836ce39d32c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - unfpa_global
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: unfpa_global_local_tasks
+theme: unfpa_global
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

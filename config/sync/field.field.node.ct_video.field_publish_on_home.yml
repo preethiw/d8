@@ -1,0 +1,21 @@
+uuid: 1b9e3bcb-dbdc-4380-b8d4-3724ab3a8bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publish_on_home
+    - node.type.ct_video
+  module:
+    - options
+id: node.ct_video.field_publish_on_home
+field_name: field_publish_on_home
+entity_type: node
+bundle: ct_video
+label: 'Publish on Home'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

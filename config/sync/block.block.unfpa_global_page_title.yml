@@ -1,0 +1,27 @@
+uuid: cbb33481-2a47-4e4a-bb32-54d1a183b554
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - unfpa_global
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: unfpa_global_page_title
+theme: unfpa_global
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/annual-report-2014\r\n/annual-report-2015\r\n/annual-report-2016\r\n/annual-report-2017\r\n/annual-report-2018\r\n/swop-2015\r\n/swop-2016\r\n/swop-2017\r\n/swop-2018\r\n/swop-2019"
+    negate: true
+    context_mapping: {  }

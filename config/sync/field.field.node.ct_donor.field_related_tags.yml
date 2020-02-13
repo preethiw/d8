@@ -1,0 +1,26 @@
+uuid: 43cf200d-27ba-4e17-8910-08f812527e1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_tags
+    - node.type.ct_donor
+    - taxonomy.vocabulary.tags
+id: node.ct_donor.field_related_tags
+field_name: field_related_tags
+entity_type: node
+bundle: ct_donor
+label: 'Related Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      tags: tags
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

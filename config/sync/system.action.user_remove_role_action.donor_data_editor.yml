@@ -1,0 +1,14 @@
+uuid: f435f317-bf5d-4555-8e43-a9b856563873
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.donor_data_editor
+  module:
+    - user
+id: user_remove_role_action.donor_data_editor
+label: 'Remove the Donor Data Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: donor_data_editor

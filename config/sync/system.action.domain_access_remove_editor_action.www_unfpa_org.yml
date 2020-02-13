@@ -1,0 +1,14 @@
+uuid: 7ca9a465-0e0e-4c85-a01e-8dbfbf77055c
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.www_unfpa_org
+  module:
+    - domain_access
+id: domain_access_remove_editor_action.www_unfpa_org
+label: 'Remove editors from the UNFPA - United Nations Population Fund domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id: www_unfpa_org

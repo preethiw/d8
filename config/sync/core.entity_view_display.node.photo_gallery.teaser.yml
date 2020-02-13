@@ -1,0 +1,62 @@
+uuid: 8dc978d4-2c97-426f-9ddd-e2b3fb72209e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photo_gallery.body
+    - field.field.node.photo_gallery.field_domain_access
+    - field.field.node.photo_gallery.field_domain_all_affiliates
+    - field.field.node.photo_gallery.field_domain_source
+    - field.field.node.photo_gallery.field_metatag
+    - field.field.node.photo_gallery.field_photo
+    - field.field.node.photo_gallery.field_photo_date
+    - field.field.node.photo_gallery.field_photo_location
+    - field.field.node.photo_gallery.field_pic_date
+    - field.field.node.photo_gallery.field_present_ed
+    - node.type.photo_gallery
+  module:
+    - text
+    - user
+id: node.photo_gallery.teaser
+targetEntityType: node
+bundle: photo_gallery
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_metatag: true
+  field_photo: true
+  field_photo_date: true
+  field_photo_location: true
+  field_pic_date: true
+  field_present_ed: true

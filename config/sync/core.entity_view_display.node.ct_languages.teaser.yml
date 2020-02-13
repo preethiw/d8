@@ -1,0 +1,31 @@
+uuid: cf410a37-57cd-490d-bd57-37507d637829
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_languages.field_domain_access
+    - field.field.node.ct_languages.field_domain_all_affiliates
+    - field.field.node.ct_languages.field_domain_source
+    - field.field.node.ct_languages.field_language_code
+    - field.field.node.ct_languages.field_metatag
+    - node.type.ct_languages
+  module:
+    - user
+id: node.ct_languages.teaser
+targetEntityType: node
+bundle: ct_languages
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_language_code: true
+  field_metatag: true
+  langcode: true

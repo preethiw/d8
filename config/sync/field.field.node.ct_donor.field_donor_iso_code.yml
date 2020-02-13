@@ -1,0 +1,19 @@
+uuid: 08c4eb6c-35c5-498f-ab44-6879840e39d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_donor_iso_code
+    - node.type.ct_donor
+id: node.ct_donor.field_donor_iso_code
+field_name: field_donor_iso_code
+entity_type: node
+bundle: ct_donor
+label: 'Donor iso code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

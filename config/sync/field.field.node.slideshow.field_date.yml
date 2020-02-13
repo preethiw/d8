@@ -1,0 +1,21 @@
+uuid: d5c73254-39c6-4b4b-984d-f9ab7a446aa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.slideshow
+  module:
+    - datetime
+id: node.slideshow.field_date
+field_name: field_date
+entity_type: node
+bundle: slideshow
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

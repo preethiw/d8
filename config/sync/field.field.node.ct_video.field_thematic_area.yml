@@ -1,0 +1,27 @@
+uuid: 66eb75e0-772b-4071-a607-13da4940929d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematic_area
+    - node.type.ct_video
+id: node.ct_video.field_thematic_area
+field_name: field_thematic_area
+entity_type: node
+bundle: ct_video
+label: 'Thematic Area'
+description: "To select multiple items from the list<br>\r\nWindows: Press & Hold <b>Ctrl</b> Key + Item Selection <br>\r\nMac: Press & Hold <b>Command</b>/<b>Shift</b> Key + Item Selection"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

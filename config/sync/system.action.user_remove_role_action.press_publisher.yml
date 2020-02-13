@@ -1,0 +1,14 @@
+uuid: 1a601f9f-55d9-4339-870a-f436c4b6d665
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.press_publisher
+  module:
+    - user
+id: user_remove_role_action.press_publisher
+label: 'Remove the Press publisher role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: press_publisher

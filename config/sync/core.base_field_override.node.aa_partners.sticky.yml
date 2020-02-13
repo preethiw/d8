@@ -1,0 +1,22 @@
+uuid: cf5dd95a-d1c8-4a8a-a2cf-a4e3ebe6023f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+id: node.aa_partners.sticky
+field_name: sticky
+entity_type: node
+bundle: aa_partners
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

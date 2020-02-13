@@ -1,0 +1,18 @@
+uuid: 4d322184-5e15-4cf0-a519-84a51d09edc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.metatag
+field_name: metatag
+entity_type: node
+bundle: ct_donor
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,41 @@
+uuid: 60cfa2bd-475c-49c8-860f-1e2ddbeeb36c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.indicator.field_indicator_hover_text
+    - field.field.paragraph.indicator.field_indicator_name
+    - field.field.paragraph.indicator.field_indicator_value
+    - paragraphs.paragraphs_type.indicator
+id: paragraph.indicator.default
+targetEntityType: paragraph
+bundle: indicator
+mode: default
+content:
+  field_indicator_hover_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_indicator_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_indicator_value:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

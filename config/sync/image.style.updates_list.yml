@@ -1,0 +1,15 @@
+uuid: d0c866eb-1da3-4d0c-8e53-1b036b56dd81
+langcode: en
+status: true
+dependencies: {  }
+name: updates_list
+label: 'Updates List'
+effects:
+  c31f251f-b664-4c05-b737-826fb55ad386:
+    uuid: c31f251f-b664-4c05-b737-826fb55ad386
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 180
+      height: 112
+      anchor: center-center

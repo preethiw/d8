@@ -1,0 +1,15 @@
+uuid: 90e6f205-9152-4e0a-9f7a-a3e3b8fba806
+langcode: en
+status: true
+dependencies: {  }
+name: event_library
+label: 'Event Library'
+effects:
+  3d72949c-0e41-4426-9b90-105641d04a43:
+    uuid: 3d72949c-0e41-4426-9b90-105641d04a43
+    id: image_scale
+    weight: 1
+    data:
+      width: 160
+      height: null
+      upscale: false

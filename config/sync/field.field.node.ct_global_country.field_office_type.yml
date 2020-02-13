@@ -1,0 +1,27 @@
+uuid: a00a5ee6-524c-4b3e-9cad-ab432ac61e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_type
+    - node.type.ct_global_country
+id: node.ct_global_country.field_office_type
+field_name: field_office_type
+entity_type: node
+bundle: ct_global_country
+label: 'Office Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 3e2d1a71-1b0e-49bf-9d3b-8c511022f7d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.aa_partners
+  module:
+    - text
+id: node.aa_partners.body
+field_name: body
+entity_type: node
+bundle: aa_partners
+label: 'Partner description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

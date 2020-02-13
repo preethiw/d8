@@ -1,0 +1,23 @@
+uuid: 1ee2f2d1-9544-4348-b75d-4274559541da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ct_video
+  module:
+    - text
+id: node.ct_video.body
+field_name: body
+entity_type: node
+bundle: ct_video
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

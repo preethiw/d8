@@ -1,0 +1,8 @@
+uuid: 7601524e-42b1-4c1b-a4b3-55d4f9023bab
+langcode: en
+status: true
+dependencies: {  }
+name: 'Web page Workflow'
+vid: web_page_workflow
+description: ''
+weight: 2

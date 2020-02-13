@@ -1,0 +1,432 @@
+.ar18-indicators {
+  background: #fff;
+}
+
+.ar18-indicators .ar18-section-name {
+  text-transform: uppercase;
+}
+
+/* Pre-title. */
+.ar18-indicators-pretitle {
+  display: block;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* "Zero" title. */
+.ar18-indicators-zero {
+  display: block;
+  margin-bottom: -10px;
+  color: #f9a801;
+  font-size: 115px;
+  line-height: 115px;
+  text-transform: uppercase;
+}
+
+@media all and (min-width: 768px) {
+  .ar18-indicators .ar18-section-name {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-1 .ar18-section-name {
+    font-size: 33px;
+    line-height: 39px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-2 .ar18-section-name {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-3 .ar18-section-name {
+    font-size: 29px;
+    line-height: 37px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .ar18-indicators .ar18-section-name {
+    font-size: 55px;
+    line-height: 57px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-1 .ar18-section-name {
+    font-size: 41px;
+    line-height: 53px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-2 .ar18-section-name {
+    font-size: 41px;
+    line-height: 53px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-3 .ar18-section-name {
+    font-size: 41px;
+    line-height: 53px;
+  }
+}
+
+@media all and (min-width: 1100px) {
+  .i18n-es .ar18-indicators#indicators-1 .ar18-section-name {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-2 .ar18-section-name {
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-3 .ar18-section-name {
+    font-size: 48px;
+    line-height: 62px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .ar18-indicators .ar18-section-name {
+    font-size: 65px;
+    line-height: 72px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-1 .ar18-section-name {
+    font-size: 52px;
+    line-height: 66px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-2 .ar18-section-name {
+    font-size: 52px;
+    line-height: 66px;
+  }
+
+  .i18n-es .ar18-indicators#indicators-3 .ar18-section-name {
+    font-size: 52px;
+    line-height: 66px;
+  }
+
+  .ar18-indicators-pretitle {
+    padding-bottom: 20px;
+  }
+
+  .ar18-indicators-zero {
+    margin-bottom: 0;
+    font-size: 155px;
+    line-height: 155px;
+  }
+}
+
+/* --- Intro / Keyfacts --- */
+
+.ar18-indicators-intro {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ar18-indicators-intro-inner {
+  margin-left: -50px;
+  position: relative;
+}
+
+.ar18-indicators-intro-fact,
+.ar18-indicators-intro-copy {
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ar18-indicators-intro-fact {
+  background: -999px -999px no-repeat;
+}
+
+.ar18-indicators-intro-fact p {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.ar18-indicators-intro-fact-name {
+  display: block;
+  margin-bottom: 50px;
+  color: #f9a801;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.ar18-indicators-intro-fact-info {
+  display: block;
+  font-size: 26px;
+  line-height: 37px;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  color: #4a6983;
+}
+
+.ar18-indicators-fact-value {
+  font-size: 140px;
+  line-height: 120px;
+}
+
+.ar18-indicators-intro-fact-subnote p {
+  font-size: 9px;
+  line-height: 12px;
+  margin-top: 7px !important;
+  color: #b4b4b4;
+  max-width: 100%;
+}
+
+.ar18-indicators-intro-copy {
+  color: #4a6983;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+
+.ar18-indicators-intro-copy > *:first-child {
+  margin-top: 0;
+}
+
+.ar18-indicators-intro-copy > *:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 400px) {
+  .ar18-indicators-intro-fact p {
+    flex-direction: column;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .ar18-indicators-intro-inner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid #d8d8d8;
+    left: 41%;
+  }
+
+  .ar18-indicators-intro-fact {
+    float: left;
+    width: 41%;
+    padding-right: 20px;
+  }
+
+  .ar18-indicators-intro-fact p {
+    flex-direction: column;
+  }
+
+  .ar18-indicators-intro-fact-info {
+    max-width: 205px;
+    padding-left: 0;
+  }
+
+  .ar18-indicators-intro-fact-subnote p {
+    max-width: 190px;
+  }
+
+  .ar18-indicators-intro-copy {
+    float: left;
+    width: 59%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .ar18-indicators-intro-fact {
+    float: left;
+    /* 460 of 1130 */
+    width: 40.7%;
+    padding-right: 20px;
+    min-height: 160px;
+  }
+
+  #indicators-1 .ar18-indicators-intro-fact {
+    background-position: 50px 30px;
+    background-size: 134px 150px;
+  }
+
+  #indicators-1 .ar18-indicators-intro-fact p {
+    margin-left: 116px;
+  }
+
+  #indicators-2 .ar18-indicators-intro-fact {
+    background-position: 50px 10px;
+    background-size: 136px 150px;
+  }
+
+  #indicators-2 .ar18-indicators-intro-fact p {
+    margin-left: 154px;
+  }
+
+  #indicators-3 .ar18-indicators-intro-fact {
+    background-position: 50px 0;
+    background-size: 118px 128px;
+  }
+
+  #indicators-3 .ar18-indicators-intro-fact p {
+    margin-left: 152px;
+  }
+}
+
+/* --- Data --- */
+
+.ar18-indicators-data {
+  padding-top: 0;
+}
+
+h2.ar18-indicators-data-header {
+  margin: 0 0 20px 0;
+  color: #4a6983;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.ar18-indicators-data p {
+  margin: 0;
+}
+
+.ar18-indicators-slider {
+  width: 100%;
+  padding: 0 24px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ar18-indicators-slider.has-owl {
+  padding: 24px 0 0 0;
+}
+
+.ar18-indicators-slide {
+  background: #546a7b;
+  padding: 36px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.ar18-indicators-slide:last-child {
+  margin-bottom: 0;
+}
+
+.has-owl .ar18-indicators-slide {
+  width: 320px;
+  margin-bottom: 0;
+}
+
+.ar18-indicators-label {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 80px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 70px;
+  overflow: hidden;
+}
+
+p.ar18-indicators-label-pre {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+p.ar18-indicators-label-main {
+  margin-bottom: 5px;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+p.ar18-indicators-label-sub {
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.ar18-indicators-value {
+  max-width: 360px;
+  width: 100%;
+  height: 75px;
+  margin: 0 auto;
+  border-top: 5px solid #f9a801;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  background-color: #3e4e5c;
+  color: #f9a801;
+  font-size: 40px;
+  line-height: 77px;
+  text-align: center;
+}
+
+.ar18-indicators-value span {
+  color: #fff;
+}
+
+@media all and (min-width: 480px) {
+  .has-owl .ar18-indicators-slide {
+    width: calc(480px - 60px);
+  }
+}
+
+@media all and (min-width: 640px) {
+  .has-owl .ar18-indicators-slide {
+    width: calc(640px - 60px);
+  }
+}
+
+@media all and (min-width: 768px) {
+  h2.ar18-indicators-data-header {
+    text-align: center;
+    margin: 0;
+  }
+
+  .ar18-indicators-slider {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  html.no-js .ar18-indicators-data {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .has-owl .ar18-indicators-slide {
+    width: 359px;
+  }
+
+  .ar18 .ar18-indicators-slider .owl-dots {
+    left: 36px;
+  }
+
+  .ar18 .ar18-indicators-slider .owl-nav {
+    right: 36px;
+  }
+
+  .ar18-indicators-label {
+    padding-top: 115px;
+    background-position: center 20px;
+    background-size: 85px;
+  }
+}
+
+@media all and (min-width: 1172px) {
+  .ar18 .ar18-indicators-slider .owl-dots {
+    left: 0;
+  }
+
+  .ar18 .ar18-indicators-slider .owl-nav {
+    right: 0;
+  }
+}

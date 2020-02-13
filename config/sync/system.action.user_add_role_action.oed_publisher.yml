@@ -1,0 +1,14 @@
+uuid: 26e3c79b-d5d1-431f-8e85-364659ba2b32
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.oed_publisher
+  module:
+    - user
+id: user_add_role_action.oed_publisher
+label: 'Add the OED publisher role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: oed_publisher

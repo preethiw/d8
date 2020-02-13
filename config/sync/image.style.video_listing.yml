@@ -1,0 +1,15 @@
+uuid: 34ddba93-a24f-47b7-a673-b23dbb4f9f0c
+langcode: en
+status: true
+dependencies: {  }
+name: video_listing
+label: 'Video listing'
+effects:
+  a6ae644e-0e4e-47dd-9749-70342b42765e:
+    uuid: a6ae644e-0e4e-47dd-9749-70342b42765e
+    id: image_scale
+    weight: 1
+    data:
+      width: 550
+      height: 309
+      upscale: false

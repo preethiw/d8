@@ -1,0 +1,28 @@
+uuid: 2a7095e5-4c4c-476d-a412-2a82564aa015
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feature_banner_image
+    - media.type.image
+    - node.type.ct_video
+id: node.ct_video.field_feature_banner_image
+field_name: field_feature_banner_image
+entity_type: node
+bundle: ct_video
+label: 'Feature Banner Image'
+description: 'Please upload the image with dimension <i>680pX360px.</i>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

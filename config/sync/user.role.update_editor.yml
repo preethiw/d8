@@ -1,0 +1,48 @@
+uuid: 6da332ac-9b51-4ef7-9fde-40a993ddda58
+langcode: en
+status: true
+dependencies: {  }
+id: update_editor
+label: 'Update editor'
+weight: 8
+is_admin: null
+permissions:
+  - 'access ckeditor link'
+  - 'access content overview'
+  - 'access overlay'
+  - 'access toolbar'
+  - 'access workbench'
+  - 'access workbench access by role'
+  - 'add media from remote sources'
+  - 'bypass workbench moderation'
+  - 'clear current page varnish cache'
+  - 'create ct_updates content'
+  - 'create slideshow content'
+  - 'delete any ct_updates content'
+  - 'delete any slideshow content'
+  - 'delete own ct_updates content'
+  - 'delete own slideshow content'
+  - 'delete revisions'
+  - 'edit any ct_updates content'
+  - 'edit any slideshow content'
+  - 'edit media'
+  - 'edit own ct_updates content'
+  - 'edit own slideshow content'
+  - 'import media'
+  - 'moderate content from draft to needs_review'
+  - 'moderate content from needs_review to draft'
+  - 'moderate content from needs_review to published'
+  - 'revert revisions'
+  - 'show format selection for node'
+  - 'translate content'
+  - 'use text format custom_html'
+  - 'use text format full_html'
+  - 'use workbench_moderation my drafts tab'
+  - 'use workbench_moderation needs review tab'
+  - 'view all unpublished content'
+  - 'view moderation history'
+  - 'view moderation messages'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'
+  - 'view unpublished domain content'

@@ -1,0 +1,21 @@
+uuid: 42a5290b-c1b5-4e7e-afb3-7128ef9a4b7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.ct_video
+id: node.ct_video.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: ct_video
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

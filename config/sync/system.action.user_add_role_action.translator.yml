@@ -1,0 +1,14 @@
+uuid: f20100b5-5bcc-4176-8ff5-522bbdecbdc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.translator
+  module:
+    - user
+id: user_add_role_action.translator
+label: 'Add the Translator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: translator

@@ -1,0 +1,22 @@
+name: UNFPA Global Website
+type: theme
+description: UNFPA Global Website custom theme.
+core: 8.x
+base theme: bootstrap
+
+regions:
+  header: 'Header'
+  main_navigation: 'Main Navigation'
+  language_switcher: 'Language Switcher'
+  highlighted: 'Highlighted'  
+  breadcrumbs: 'Breadcrumbs'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'  
+
+libraries:
+  - unfpa_global/global-styling
+  - unfpa_global/global-scripts
+logo: images/logo.svg
+screenshot: screenshot.png

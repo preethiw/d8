@@ -1,0 +1,23 @@
+uuid: 229f7cf1-a636-4237-b534-48ea1518e59b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_present_ed
+    - node.type.photo_gallery
+id: node.photo_gallery.field_present_ed
+field_name: field_present_ed
+entity_type: node
+bundle: photo_gallery
+label: 'Present Ed'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Present Ed'
+  off_label: ''
+field_type: boolean

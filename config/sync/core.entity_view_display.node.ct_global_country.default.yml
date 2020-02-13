@@ -1,0 +1,228 @@
+uuid: fd18bd06-091e-4147-b653-4dc8052ef43a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_global_country.body
+    - field.field.node.ct_global_country.field_country_code
+    - field.field.node.ct_global_country.field_country_office_url
+    - field.field.node.ct_global_country.field_domain_access
+    - field.field.node.ct_global_country.field_domain_all_affiliates
+    - field.field.node.ct_global_country.field_domain_source
+    - field.field.node.ct_global_country.field_globe_image
+    - field.field.node.ct_global_country.field_indicator
+    - field.field.node.ct_global_country.field_liaison_office_name
+    - field.field.node.ct_global_country.field_liaison_office_url
+    - field.field.node.ct_global_country.field_location_map
+    - field.field.node.ct_global_country.field_meta_tags
+    - field.field.node.ct_global_country.field_office_type
+    - field.field.node.ct_global_country.field_open_data_portal_url
+    - field.field.node.ct_global_country.field_population
+    - field.field.node.ct_global_country.field_region
+    - field.field.node.ct_global_country.field_regional_office_url
+    - field.field.node.ct_global_country.field_ssc_enrollment_boys
+    - field.field.node.ct_global_country.field_ssc_enrollment_girls
+    - field.field.node.ct_global_country.field_sub_regional_office_name
+    - field.field.node.ct_global_country.field_sub_regional_office_url
+    - node.type.ct_global_country
+  module:
+    - entity_reference_revisions
+    - geolocation
+    - image
+    - link
+    - metatag
+    - options
+    - text
+    - user
+id: node.ct_global_country.default
+targetEntityType: node
+bundle: ct_global_country
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_country_code:
+    weight: 19
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_country_office_url:
+    weight: 8
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_domain_access:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_globe_image:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_indicator:
+    type: entity_reference_revisions_entity_view
+    weight: 9
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_liaison_office_name:
+    weight: 15
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_liaison_office_url:
+    weight: 16
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_location_map:
+    weight: 10
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_meta_tags:
+    weight: 20
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_office_type:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_open_data_portal_url:
+    weight: 18
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_population:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_region:
+    weight: 13
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_regional_office_url:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_ssc_enrollment_boys:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ssc_enrollment_girls:
+    weight: 12
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sub_regional_office_name:
+    weight: 17
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sub_regional_office_url:
+    weight: 7
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  langcode:
+    type: language
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_domain_all_affiliates: true
+  field_domain_source: true

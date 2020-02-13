@@ -1,0 +1,14 @@
+uuid: d486db9d-0176-4fd5-b22a-32d49d499188
+langcode: en
+status: true
+dependencies: {  }
+name: video_home_thumb
+label: 'Video Home Thumb'
+effects:
+  0bfb647c-2985-4ba7-aff1-87d5cc9e55ce:
+    uuid: 0bfb647c-2985-4ba7-aff1-87d5cc9e55ce
+    id: image_resize
+    weight: 1
+    data:
+      width: 130
+      height: 75

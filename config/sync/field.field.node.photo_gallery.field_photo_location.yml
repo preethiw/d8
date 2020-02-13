@@ -1,0 +1,19 @@
+uuid: 5990b738-c4de-4318-93ba-8875fda49943
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_location
+    - node.type.photo_gallery
+id: node.photo_gallery.field_photo_location
+field_name: field_photo_location
+entity_type: node
+bundle: photo_gallery
+label: 'Photo location'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

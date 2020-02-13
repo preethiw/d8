@@ -1,0 +1,59 @@
+uuid: 19834f07-40e6-4f10-b78e-3c22320ad1a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+    - node.type.ct_donor
+    - node.type.photo_gallery
+  module:
+    - content_moderation
+id: unfpa_content_moderation
+label: 'UNFPA Content Moderation'
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: 0
+    needs_review:
+      published: false
+      default_revision: false
+      label: 'Needs Review'
+      weight: 2
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 1
+  transitions:
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: -2
+      from:
+        - draft
+        - published
+    needs_review:
+      label: 'Needs review'
+      from:
+        - draft
+        - needs_review
+        - published
+      to: needs_review
+      weight: -1
+    publish:
+      label: Publish
+      to: published
+      weight: 0
+      from:
+        - draft
+        - published
+  entity_types:
+    node:
+      - aa_partners
+      - ct_donor
+      - photo_gallery
+  default_moderation_state: draft

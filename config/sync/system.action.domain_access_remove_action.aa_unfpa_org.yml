@@ -1,0 +1,14 @@
+uuid: 125dcc9f-20bd-42d9-aaf9-543551d33d7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.aa_unfpa_org
+  module:
+    - domain_access
+id: domain_access_remove_action.aa_unfpa_org
+label: 'Remove selected content from the UNFPA Administrative Agent domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: aa_unfpa_org

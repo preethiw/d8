@@ -1,0 +1,14 @@
+uuid: f8d63850-0b82-442a-9ecb-54341b90c00e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin_resource_editor
+  module:
+    - user
+id: user_remove_role_action.admin_resource_editor
+label: 'Remove the Admin resource editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: admin_resource_editor

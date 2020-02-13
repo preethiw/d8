@@ -1,0 +1,39 @@
+uuid: 4ef45d78-1b40-4549-93cf-1e691c137154
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.indicator.field_indicator_hover_text
+    - field.field.paragraph.indicator.field_indicator_name
+    - field.field.paragraph.indicator.field_indicator_value
+    - paragraphs.paragraphs_type.indicator
+id: paragraph.indicator.default
+targetEntityType: paragraph
+bundle: indicator
+mode: default
+content:
+  field_indicator_hover_text:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_indicator_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_indicator_value:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

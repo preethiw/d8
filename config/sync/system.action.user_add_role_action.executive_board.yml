@@ -1,0 +1,14 @@
+uuid: bf1269da-b02b-4669-a81b-41562d0a07ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.executive_board
+  module:
+    - user
+id: user_add_role_action.executive_board
+label: 'Add the Executive Board role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: executive_board

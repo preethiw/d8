@@ -1,0 +1,14 @@
+uuid: aac16efe-ef6e-4325-b92f-65d9e5a3949c
+name: 'UNFPA | United Nations Population Fund'
+mail: preethi.warrier@datamatics.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

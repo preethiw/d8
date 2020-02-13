@@ -1,0 +1,9 @@
+uuid: 75f2da12-4708-476f-a8c0-0c950969b813
+langcode: en
+status: true
+dependencies: {  }
+id: indicator
+label: Indicator
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,20 @@
+uuid: c8599635-4c79-44f5-ba44-6f1ea8641a57
+langcode: en
+status: true
+dependencies:
+  theme:
+    - unfpa_global
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: unfpa_global_local_actions
+theme: unfpa_global
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

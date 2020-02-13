@@ -1,0 +1,26 @@
+uuid: dddb676e-1f61-4f6c-b78f-f1bd30606ebc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_tags
+    - node.type.slideshow
+    - taxonomy.vocabulary.tags
+id: node.slideshow.field_related_tags
+field_name: field_related_tags
+entity_type: node
+bundle: slideshow
+label: 'Related Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      tags: tags
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

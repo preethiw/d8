@@ -1,0 +1,12 @@
+name: UNFPA Global Migration
+description: 'Migrate UNFPA data from Drupal 7 to Drupal 8'
+type: module
+core: '8.x'
+version: '8.x-1.0'
+package: UNFPA Custom
+project: 'unfpa'
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_plus
+  - drupal:migrate_tools
+  - drupal:migrate_drupal

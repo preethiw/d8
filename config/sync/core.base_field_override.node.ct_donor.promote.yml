@@ -1,0 +1,22 @@
+uuid: 2051b479-524e-488d-a0b7-2f1ef2847ba8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.promote
+field_name: promote
+entity_type: node
+bundle: ct_donor
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

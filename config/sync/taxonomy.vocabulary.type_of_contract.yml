@@ -1,0 +1,8 @@
+uuid: 2fb11c9e-706f-45de-8a5b-fa53a5ff5c81
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of Contract'
+vid: type_of_contract
+description: ''
+weight: 0

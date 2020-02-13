@@ -1,0 +1,15 @@
+uuid: b39c916d-cd59-4478-8bb4-69b4e1837cf2
+langcode: en
+status: true
+dependencies: {  }
+name: aa_publication_listing
+label: 'AA Publication Listing'
+effects:
+  45603f45-aef6-474b-9dfa-0e4cfbca902e:
+    uuid: 45603f45-aef6-474b-9dfa-0e4cfbca902e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 280
+      height: 360
+      anchor: center-center

@@ -1,0 +1,57 @@
+uuid: 8c99cfda-fc43-4cee-95a3-45b8f91dcbf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.aa_partners.body
+    - field.field.node.aa_partners.field_domain_access
+    - field.field.node.aa_partners.field_domain_all_affiliates
+    - field.field.node.aa_partners.field_domain_source
+    - field.field.node.aa_partners.field_image
+    - field.field.node.aa_partners.field_metatag
+    - field.field.node.aa_partners.field_related_tags
+    - node.type.aa_partners
+  module:
+    - image
+    - text
+    - user
+id: node.aa_partners.default
+targetEntityType: node
+bundle: aa_partners
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    label: above
+    weight: 1
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_related_tags:
+    label: above
+    weight: 2
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_metatag: true
+  langcode: true

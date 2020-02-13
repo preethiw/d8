@@ -1,0 +1,22 @@
+uuid: fcc69b08-2fbc-4926-a238-e7a3086162d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.slideshow_images
+id: paragraph.slideshow_images.status
+field_name: status
+entity_type: paragraph
+bundle: slideshow_images
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 5ca0f592-89d3-434f-9015-bf49f749bb03
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.status
+field_name: status
+entity_type: node
+bundle: ct_donor
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

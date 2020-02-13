@@ -1,0 +1,15 @@
+uuid: b29d7377-33bd-43a0-b219-5cb1e33aa2e4
+langcode: en
+status: true
+dependencies: {  }
+name: audit_report_list
+label: 'audit report list'
+effects:
+  96ee801a-c704-4fd0-9e1e-cceb11e01193:
+    uuid: 96ee801a-c704-4fd0-9e1e-cceb11e01193
+    id: image_scale
+    weight: 1
+    data:
+      width: 180
+      height: null
+      upscale: false

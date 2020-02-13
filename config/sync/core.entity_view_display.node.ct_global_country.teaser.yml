@@ -1,0 +1,71 @@
+uuid: ec286365-a2d7-4394-b484-8cc26fa55322
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_global_country.body
+    - field.field.node.ct_global_country.field_country_code
+    - field.field.node.ct_global_country.field_country_office_url
+    - field.field.node.ct_global_country.field_domain_access
+    - field.field.node.ct_global_country.field_domain_all_affiliates
+    - field.field.node.ct_global_country.field_domain_source
+    - field.field.node.ct_global_country.field_globe_image
+    - field.field.node.ct_global_country.field_indicator
+    - field.field.node.ct_global_country.field_liaison_office_name
+    - field.field.node.ct_global_country.field_liaison_office_url
+    - field.field.node.ct_global_country.field_location_map
+    - field.field.node.ct_global_country.field_meta_tags
+    - field.field.node.ct_global_country.field_office_type
+    - field.field.node.ct_global_country.field_open_data_portal_url
+    - field.field.node.ct_global_country.field_population
+    - field.field.node.ct_global_country.field_region
+    - field.field.node.ct_global_country.field_regional_office_url
+    - field.field.node.ct_global_country.field_ssc_enrollment_boys
+    - field.field.node.ct_global_country.field_ssc_enrollment_girls
+    - field.field.node.ct_global_country.field_sub_regional_office_name
+    - field.field.node.ct_global_country.field_sub_regional_office_url
+    - node.type.ct_global_country
+  module:
+    - text
+    - user
+id: node.ct_global_country.teaser
+targetEntityType: node
+bundle: ct_global_country
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_country_code: true
+  field_country_office_url: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_globe_image: true
+  field_indicator: true
+  field_liaison_office_name: true
+  field_liaison_office_url: true
+  field_location_map: true
+  field_meta_tags: true
+  field_office_type: true
+  field_open_data_portal_url: true
+  field_population: true
+  field_region: true
+  field_regional_office_url: true
+  field_ssc_enrollment_boys: true
+  field_ssc_enrollment_girls: true
+  field_sub_regional_office_name: true
+  field_sub_regional_office_url: true
+  langcode: true

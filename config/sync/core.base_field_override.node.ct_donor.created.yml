@@ -1,0 +1,18 @@
+uuid: d45ad491-cd24-41e0-9f80-d6b4a0ad7936
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.created
+field_name: created
+entity_type: node
+bundle: ct_donor
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

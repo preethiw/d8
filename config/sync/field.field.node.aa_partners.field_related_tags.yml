@@ -1,0 +1,26 @@
+uuid: bbb6d3aa-b5b3-4d9d-9258-b6b4078d1f7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_tags
+    - node.type.aa_partners
+    - taxonomy.vocabulary.tags
+id: node.aa_partners.field_related_tags
+field_name: field_related_tags
+entity_type: node
+bundle: aa_partners
+label: 'Related Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      tags: tags
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: 372461ea-2540-4d48-8ff7-98224d3ad945
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_liaison_office_name
+    - node.type.ct_global_country
+id: node.ct_global_country.field_liaison_office_name
+field_name: field_liaison_office_name
+entity_type: node
+bundle: ct_global_country
+label: 'Liaison Office Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

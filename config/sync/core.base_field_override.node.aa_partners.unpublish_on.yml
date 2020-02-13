@@ -1,0 +1,18 @@
+uuid: 5fa03d90-d4d0-448e-b373-b7b1a98e94aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+id: node.aa_partners.unpublish_on
+field_name: unpublish_on
+entity_type: node
+bundle: aa_partners
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

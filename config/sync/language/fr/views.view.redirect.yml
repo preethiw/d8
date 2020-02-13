@@ -1,0 +1,44 @@
+label: Rediriger
+display:
+  default:
+    display_title: Maître
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: "‹\_précédent"
+            next: "suivant\_›"
+            first: "«\_premier"
+            last: "dernier\_»"
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+      fields:
+        redirect_bulk_form:
+          action_title: 'Pour la sélection'
+        redirect_source__path:
+          label: From
+          separator: ', '
+        created:
+          label: Créé
+      filters:
+        redirect_source__path:
+          expose:
+            label: From
+        redirect_redirect__uri:
+          expose:
+            label: To
+        language:
+          expose:
+            label: 'Original language'
+      title: Rediriger
+  page_1:
+    display_title: Page

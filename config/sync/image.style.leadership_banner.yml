@@ -1,0 +1,15 @@
+uuid: f53f5de1-8394-4498-8d62-31f54136f963
+langcode: en
+status: true
+dependencies: {  }
+name: leadership_banner
+label: 'Leadership Banner'
+effects:
+  efed8aee-27d4-4b65-8b0b-917565d104f2:
+    uuid: efed8aee-27d4-4b65-8b0b-917565d104f2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 580
+      height: 440
+      anchor: center-center

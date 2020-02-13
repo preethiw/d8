@@ -1,0 +1,23 @@
+uuid: a52d0b00-d82a-4fa9-bb54-916e502a1ed1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ct_global_country
+  module:
+    - text
+id: node.ct_global_country.body
+field_name: body
+entity_type: node
+bundle: ct_global_country
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

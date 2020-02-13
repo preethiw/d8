@@ -1,0 +1,14 @@
+uuid: 132187ba-2c70-47ca-a30b-67ff3a8f8846
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.programme_country_editor
+  module:
+    - user
+id: user_add_role_action.programme_country_editor
+label: 'Add the Programme Country editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: programme_country_editor

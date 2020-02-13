@@ -1,0 +1,43 @@
+id: unfpa_file
+label: 'UNFPA Public files'
+migration_group: unfpa
+audit: true
+migration_tags:
+  - Drupal 7
+  - Content
+source:
+  plugin: d7_file
+  scheme: public
+  unfpa_d7_base_path:
+    -
+      plugin: unfpa_base_path
+  constants:
+    # The tool configuring this migration must set source_base_path. It
+    # represents the fully qualified path relative to which URIs in the files
+    # table are specified, and must end with a /. See source_full_path
+    # configuration in this migration's process pipeline as an example.
+    source_base_path: 'http://7-unfpa.local'
+process:
+  fid: fid
+  filename: filename
+  source_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/source_base_path
+        - filepath
+    -
+      plugin: urlencode
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - uri
+  filemime: filemime
+  status: status
+  created: timestamp
+  changed: timestamp
+  uid: uid
+destination:
+  plugin: entity:file

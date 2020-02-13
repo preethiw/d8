@@ -1,0 +1,23 @@
+uuid: 81953ee6-6971-4dc6-b466-0e3afa2dd8ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country_office_url
+    - node.type.ct_global_country
+  module:
+    - link
+id: node.ct_global_country.field_country_office_url
+field_name: field_country_office_url
+entity_type: node
+bundle: ct_global_country
+label: 'Country Office URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

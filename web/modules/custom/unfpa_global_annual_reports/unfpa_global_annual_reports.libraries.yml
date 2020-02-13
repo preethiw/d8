@@ -1,0 +1,106 @@
+unfpa_global_annual_reports_2014:
+  version: 1.x
+  css:
+    theme:
+      css/un-fonts.css: {}
+      js/lib.owl-carousel.css: { scope: footer }
+      css/un-style.css: {}
+  js:
+    https://code.jquery.com/jquery-migrate-3.0.0.min.js: { type: external }
+    https://www.google.com/jsapi?autoload=%7B'modules'%3A%5B%7B'name'%3A'visualization'%2C'version'%3A'1'%2C'packages'%3A%5B'corechart'%2C'bar'%5D%7D%5D%7D: {type: external, minified: true}
+    js/lib.detectmobilebrowser.js: { scope: header }    
+    js/un.early.js: { scope: header }
+    js/lib.colorbox.js: { scope: footer }
+    js/lib.skrollr.js: { scope: footer }
+    js/lib.chartjs.js: { scope: footer }
+    js/lib.owl-carousel.js: { scope: header }
+    js/lib.waypoints.js: { scope: footer }
+    js/un.general.js: { scope: footer }
+    js/un.scrolling.js: { scope: footer }
+    js/un.charts.js: { scope: footer }
+    js/un.cboxload.js: { scope: footer }
+    js/un.gchart.js: { scope: header }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+    - core/modernizr
+
+
+unfpa_global_annual_reports_2015:
+  version: 1.x
+  css:
+    theme:
+      css/un-style-2015.css: {}
+      css/animate.css: {}
+
+  js:
+    js/lib.masonry.js: { scope: footer }
+
+unfpa_global_annual_reports_2016:
+  version: 1.x
+  css:
+    theme:
+      css/un-style-2016.css: {}
+      css/animate.css: {}
+
+  js:
+    js/lib.masonry.js: { scope: footer }
+    js/un_2016.js: { scope: footer }
+
+unfpa_global_annual_reports_2017:
+  version: 1.x
+  css:
+    theme:
+      images/2017/font-icons/ar.icons.css: {}
+      css/2017/lib.owl-carousel.css: {}
+      css/2017/ar-2017.style.css: {}
+
+  js:
+    https://code.jquery.com/jquery-migrate-3.0.0.min.js: { type: external }
+    js/2017/lib.raf.js: { scope: footer }
+    js/2017/lib.owl-carousel.js: { scope: footer }
+    js/2017/lib.easing.js: { scope: footer }
+    js/2017/ar.general.js: { scope: footer }
+    js/2017/ar.nav.js: { scope: footer }
+    js/2017/ar.intro.js: { scope: footer }
+    js/2017/ar.indicators.js: { scope: footer }
+    js/2017/ar.region.js: { scope: footer }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+
+
+unfpa_global_annual_reports_2018:
+  version: 1.x
+  css:
+    theme:
+      css/2018/ar18.page.css: {}
+      css/2018/ar18.nav.css: {}
+      css/2018/ar18.intro.css: {}
+      css/2018/ar18.ed.css: {}
+      css/2018/ar18.indicators.css: {}
+      css/2018/ar18.region.css: {}
+      css/2018/ar18.partnership.css: {}
+      js/2018/lib.owl-carousel.css: {}
+      css/2018/ar18.share.css: {}
+
+  js:
+    https://code.jquery.com/jquery-migrate-3.0.0.min.js: { type: external }
+    js/2018/lib.raf.js: { scope: footer }
+    js/2018/lib.owl-carousel.js: { scope: footer }
+    js/2018/lib.easing.js: { scope: footer }
+    js/2018/ar18.general.js: { scope: footer }
+    js/2018/ar18.nav.js: { scope: footer }
+    js/2018/ar18.share.js: { scope: footer }
+    js/2018/ar18.intro.js: { scope: footer }
+    js/2018/ar18.indicators.js: { scope: footer }
+    js/2018/ar18.region.js: { scope: footer }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

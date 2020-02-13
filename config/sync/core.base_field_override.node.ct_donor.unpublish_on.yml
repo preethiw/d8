@@ -1,0 +1,18 @@
+uuid: 0a357b63-ac18-4ad6-9436-c2f13f8dc802
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.unpublish_on
+field_name: unpublish_on
+entity_type: node
+bundle: ct_donor
+label: 'Unpublish on'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

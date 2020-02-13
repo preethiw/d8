@@ -1,0 +1,21 @@
+uuid: 2098ba3d-2fb9-43b9-adb9-ad015de36039
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location_map
+    - node.type.ct_global_country
+  module:
+    - geolocation
+id: node.ct_global_country.field_location_map
+field_name: field_location_map
+entity_type: node
+bundle: ct_global_country
+label: 'Location Map'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Various theme logic.
+ */
+
+/**
+ * Use language code for the language switcher.
+ *
+ * @param $variables
+ */
+function unfpa_global_preprocess_links__language_block(&$variables) {
+
+  foreach ($variables['links'] as $i => $link) {
+    // @var \Drupal\language\Entity\ConfigurableLanguage $linkLanguage
+    $linkLanguage = $link['link']['#options']['language'];
+    $variables['links'][$i]['link']['#title'] = strtoupper($linkLanguage->get('id'));
+  }
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function unfpa_global_preprocess(&$variables, $hook) {
+  $variables['base_path'] = base_path();
+}

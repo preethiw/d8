@@ -1,0 +1,19 @@
+uuid: 28eb7635-c7a4-481c-be33-2e2c3493d2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blurb
+    - node.type.ct_video
+id: node.ct_video.field_blurb
+field_name: field_blurb
+entity_type: node
+bundle: ct_video
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

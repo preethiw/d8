@@ -1,0 +1,21 @@
+uuid: cadb4101-183c-47bf-9b36-3ced63901e55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_feature
+    - node.type.slideshow
+  module:
+    - options
+id: node.slideshow.field_show_feature
+field_name: field_show_feature
+entity_type: node
+bundle: slideshow
+label: 'Show Feature'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

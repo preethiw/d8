@@ -1,0 +1,15 @@
+uuid: 6e9097f2-71db-43e2-84e5-41aa8b09a328
+langcode: en
+status: true
+dependencies: {  }
+name: team_member_large
+label: 'Team Member Large'
+effects:
+  72a5a08b-e630-45fa-901a-fae8cce0ec89:
+    uuid: 72a5a08b-e630-45fa-901a-fae8cce0ec89
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 980
+      height: 485
+      anchor: center-center

@@ -1,0 +1,21 @@
+uuid: eed377d4-b93a-454b-aad4-7c54d2564bb3
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_donor_iso_code
+field_name: field_donor_iso_code
+entity_type: node
+type: string
+settings:
+  max_length: 25
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

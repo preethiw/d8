@@ -1,0 +1,14 @@
+uuid: bb2adce5-3764-4ffd-abc1-e6821ef5906a
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.www_unfpa_org
+  module:
+    - domain_access
+id: domain_access_add_action.www_unfpa_org
+label: 'Add selected content to the UNFPA - United Nations Population Fund domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id: www_unfpa_org

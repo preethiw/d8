@@ -1,0 +1,15 @@
+uuid: 3da6ec93-63e9-40e4-b1c5-276d33935597
+langcode: en
+status: true
+dependencies: {  }
+name: donar_page_logo
+label: donar_page_logo
+effects:
+  eec66a43-33a5-48cf-b497-ebcb18e82aca:
+    uuid: eec66a43-33a5-48cf-b497-ebcb18e82aca
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: null
+      upscale: false

@@ -1,0 +1,23 @@
+uuid: e8fff4a1-f043-4d15-80b5-7ac65d4e9c18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feature_banner_image
+    - node.type.slideshow
+  module:
+    - image
+id: node.slideshow.field_feature_banner_image
+field_name: field_feature_banner_image
+entity_type: node
+bundle: slideshow
+label: 'Feature Banner Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

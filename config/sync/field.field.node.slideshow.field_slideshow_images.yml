@@ -1,0 +1,214 @@
+uuid: a504d1e3-50c8-479d-9390-98715513b118
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slideshow_images
+    - node.type.slideshow
+    - paragraphs.paragraphs_type.slideshow_images
+  module:
+    - entity_reference_revisions
+id: node.slideshow.field_slideshow_images
+field_name: field_slideshow_images
+entity_type: node
+bundle: slideshow
+label: 'Slideshow images'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    negate: 0
+    target_bundles:
+      slideshow_images: slideshow_images
+    target_bundles_drag_drop:
+      slideshow_images:
+        enabled: true
+        weight: 1
+      action_facts:
+        enabled: false
+        weight: 2
+      admin_resource_documents:
+        enabled: false
+        weight: 3
+      admin_resource_doc_upload:
+        enabled: false
+        weight: 4
+      adolescents_srh:
+        enabled: false
+        weight: 5
+      artiles_tiles:
+        enabled: false
+        weight: 6
+      audit_reports:
+        enabled: false
+        weight: 7
+      a_system_for_safe_and_ethi:
+        enabled: false
+        weight: 8
+      biography:
+        enabled: false
+        weight: 9
+      cases:
+        enabled: false
+        weight: 10
+      clinical_management:
+        enabled: false
+        weight: 11
+      clinical_mgnt_of_rape:
+        enabled: false
+        weight: 12
+      dignity_kits:
+        enabled: false
+        weight: 13
+      dignity_kits_distributed:
+        enabled: false
+        weight: 14
+      document_upload:
+        enabled: false
+        weight: 15
+      donate_card:
+        enabled: false
+        weight: 16
+      emergency_rh_kits:
+        enabled: false
+        weight: 17
+      emoc_facility:
+        enabled: false
+        weight: 18
+      estimated_impact:
+        enabled: false
+        weight: 19
+      evaluation_documents:
+        enabled: false
+        weight: 20
+      event_block:
+        enabled: false
+        weight: 21
+      event_documents:
+        enabled: false
+        weight: 22
+      family_planning_services:
+        enabled: false
+        weight: 23
+      feature_slide:
+        enabled: false
+        weight: 24
+      gbv_case:
+        enabled: false
+        weight: 25
+      gbv_services:
+        enabled: false
+        weight: 26
+      gbv_survivors_reached:
+        enabled: false
+        weight: 27
+      harecards_cards:
+        enabled: false
+        weight: 28
+      hart_charts:
+        enabled: false
+        weight: 29
+      humanitarian_funding:
+        enabled: false
+        weight: 30
+      humanitarian_needs:
+        enabled: false
+        weight: 31
+      indicator:
+        enabled: false
+        weight: 32
+      key_results:
+        enabled: false
+        weight: 33
+      key_results_data:
+        enabled: false
+        weight: 34
+      languages:
+        enabled: false
+        weight: 35
+      library:
+        enabled: false
+        weight: 36
+      main_documents:
+        enabled: false
+        weight: 37
+      main_document_upload:
+        enabled: false
+        weight: 38
+      main_evaluation_document:
+        enabled: false
+        weight: 39
+      maternity_health:
+        enabled: false
+        weight: 40
+      misp:
+        enabled: false
+        weight: 41
+      news_document:
+        enabled: false
+        weight: 42
+      number_of_mobile_clinics:
+        enabled: false
+        weight: 43
+      number_of_people_reached:
+        enabled: false
+        weight: 44
+      number_of_safe_spaces:
+        enabled: false
+        weight: 45
+      portal_document_content:
+        enabled: false
+        weight: 46
+      pycho_social_support:
+        enabled: false
+        weight: 47
+      region_indicators:
+        enabled: false
+        weight: 48
+      region_progress:
+        enabled: false
+        weight: 49
+      related_library:
+        enabled: false
+        weight: 50
+      resource_document:
+        enabled: false
+        weight: 51
+      results_achieved:
+        enabled: false
+        weight: 52
+      results_data:
+        enabled: false
+        weight: 53
+      rh_kits:
+        enabled: false
+        weight: 54
+      safe_deleiveries:
+        enabled: false
+        weight: 55
+      sdps_with_post_rape_kits:
+        enabled: false
+        weight: 56
+      session_library:
+        enabled: false
+        weight: 57
+      srh_services:
+        enabled: false
+        weight: 58
+      supporting_document:
+        enabled: false
+        weight: 59
+      supporting_doc_upload:
+        enabled: false
+        weight: 60
+      timeline_events:
+        enabled: false
+        weight: 61
+      youth_facilitators:
+        enabled: false
+        weight: 62
+  handler: 'default:paragraph'
+field_type: entity_reference_revisions

@@ -1,0 +1,14 @@
+uuid: 3002a402-c4cc-4e18-bba4-2ac0a2285f56
+langcode: en
+status: true
+dependencies: {  }
+name: video_home
+label: 'Video Home'
+effects:
+  3a9af0c6-368a-48a1-86fa-04c81e3984d0:
+    uuid: 3a9af0c6-368a-48a1-86fa-04c81e3984d0
+    id: image_resize
+    weight: 1
+    data:
+      width: 282
+      height: 159

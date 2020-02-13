@@ -1,0 +1,27 @@
+uuid: 5859bcc0-4919-4db5-abf8-d88ec4e55bf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_show_feature
+field_name: field_show_feature
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'no'
+      label: 'No'
+    -
+      value: 'yes'
+      label: 'Yes'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

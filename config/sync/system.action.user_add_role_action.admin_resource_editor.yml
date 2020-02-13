@@ -1,0 +1,14 @@
+uuid: b00c4e88-713e-472a-b0f7-79af507da1d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin_resource_editor
+  module:
+    - user
+id: user_add_role_action.admin_resource_editor
+label: 'Add the Admin resource editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: admin_resource_editor

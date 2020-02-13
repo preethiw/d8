@@ -1,0 +1,21 @@
+uuid: 4925f970-5b5f-415f-a7c0-326e7aa51df3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_country_code
+    - node.type.ct_global_country
+  module:
+    - options
+id: node.ct_global_country.field_country_code
+field_name: field_country_code
+entity_type: node
+bundle: ct_global_country
+label: 'Country Code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

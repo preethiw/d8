@@ -1,0 +1,14 @@
+uuid: cab968d6-f4ec-442a-8032-1ea570e6f8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.human_resource_editor
+  module:
+    - user
+id: user_remove_role_action.human_resource_editor
+label: 'Remove the Human Resource editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: human_resource_editor

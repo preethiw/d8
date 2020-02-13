@@ -1,0 +1,34 @@
+uuid: 101df85f-561d-41d0-a803-4bcea397e72c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_indicator
+    - node.type.ct_global_country
+    - paragraphs.paragraphs_type.indicator
+  module:
+    - entity_reference_revisions
+id: node.ct_global_country.field_indicator
+field_name: field_indicator
+entity_type: node
+bundle: ct_global_country
+label: Indicator
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      indicator: indicator
+    target_bundles_drag_drop:
+      indicator:
+        enabled: true
+        weight: 3
+      slideshow_images:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

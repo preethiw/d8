@@ -1,0 +1,15 @@
+uuid: 901cab6b-586e-44de-8dce-b4566e8e32c5
+langcode: en
+status: true
+dependencies: {  }
+name: site_page_related_thumb
+label: 'Site page related thumb'
+effects:
+  be94d11b-c5ce-493b-abad-09e8283a3960:
+    uuid: be94d11b-c5ce-493b-abad-09e8283a3960
+    id: image_scale
+    weight: -10
+    data:
+      width: 167
+      height: null
+      upscale: false

@@ -1,0 +1,18 @@
+uuid: bfa39805-af97-4d54-9119-d50461dd11f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_donor
+id: node.ct_donor.title
+field_name: title
+entity_type: node
+bundle: ct_donor
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

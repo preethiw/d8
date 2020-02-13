@@ -1,0 +1,113 @@
+{
+    "name": "UNFPA/www.unfpa.org",
+    "description": "Drupal 8 implementation for UNFPA.",
+    "type": "project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "composer/installers": "^1.0.20",
+        "cweagans/composer-patches": "^1.0",
+        "drupal-composer/drupal-scaffold": "^2.0.1",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/bamboo_twig": "5.0.0-alpha1",
+        "drupal/conditional_fields": "1.0-alpha6",
+        "drupal/bootstrap": "^3.21",
+        "drupal/config_installer": "^1.0",
+        "drupal/console": "^1",
+        "drupal/core": "^8.8",
+        "drupal/core-recommended": "^8.8",
+        "drupal/domain": "1.0-alpha16",
+        "drupal/entity_usage": "2.0.0-beta1",
+        "drupal/geolocation": "^3.0-rc6",
+        "drupal/metatag": "^1.11",
+        "drupal/migrate_plus": "5.0-rc4",
+        "drupal/migrate_tools": "^4.5",
+        "drupal/paragraphs": "^1.10",
+        "drupal/redirect": "^1.5",
+        "drupal/scheduler": "^1.1",
+        "drupal/views_xml_backend": "1.0-alpha4",
+        "drupal/webform": "^5.7",
+        "drupal/xmlsitemap": "1.0-rc1",
+        "drush-ops/behat-drush-endpoint": "^9.3",
+        "drush/drush": "9.7.0",
+        "pantheon-systems/quicksilver-pushback": "^2",
+        "rvtraveller/qs-composer-installer": "^1.1",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "require-dev": {},
+    "conflict": {
+            "drupal/drupal": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "build-assets": [
+            "@prepare-for-pantheon",
+            "composer install --optimize-autoloader --no-dev"
+        ],
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "prepare-for-pantheon": "DrupalProject\\composer\\ScriptHandler::prepareForPantheon",
+        "post-install-cmd": [
+            "@drupal-scaffold",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-create-project-cmd": [
+            "@drupal-scaffold",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+        },
+        "build-env": {
+            "install-cms": [
+                "drush site-install standard --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes"
+            ],
+            "export-configuration": "drush config-export --yes"
+        },
+        "drupal-scaffold": {
+            "source": "https://raw.githubusercontent.com/pantheon-systems/drops-8-scaffolding/{version}/{path}",
+            "includes": [
+                "sites/default/default.services.pantheon.preproduction.yml",
+                "sites/default/settings.pantheon.php"
+            ],
+            "excludes": [
+                ".csslintrc",
+                ".editorconfig",
+                ".eslintignore",
+                ".eslintrc.json",
+                ".htaccess",
+                "web.config"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.8"
+        }
+    }
+}

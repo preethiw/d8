@@ -1,0 +1,828 @@
+/*
+   .-----------------------------------------------------.
+   |                        FONTS                        |
+   '-----------------------------------------------------'
+*/
+
+.rp {
+  /* OpenSansRegular */
+  font-family: 'RobotoLight', Helvetica, Arial, sans-serif;
+}
+
+.rp * {
+  font-family: inherit;
+}
+
+.rp .t-font,
+.rp .rp-exp-1 h5,
+.intro-numbcols span,
+.rp .intro-facts .graph-imgnumb-numb {
+  font-family: 'RobotoLight', Helvetica, Arial, sans-serif;
+}
+
+.rp strong,
+.rp .b-font,
+.cover-2 h1 span {
+  font-family: 'RobotoBold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.rp .reg-font,
+.intro-numbcols strong,
+.intro-facts .fact-desc {
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.rp em,
+.rp .em-font {
+  font-family: 'RobotoItalic', Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+
+.rp .sb-font,
+.rp h1,
+.rp h2,
+.rp h3,
+.rp h4,
+.graph-doughnut.doughnut-color-2 .chart-label-wrap,
+.bar-alt-color .graph-bar .bar-prev-label,
+.bar-alt-color .graph-bar .bar-current-label,
+.intro-facts .fact-desc .rp-highlight,
+ul.exp-list-total li:last-child,
+.exp-chart h5 {
+  font-family: 'RobotoSemibold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.rp .sbem-font {
+  font-family: 'RobotoItalic', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rp .con-font {
+  font-family: 'OpenSansCondensedBold', Helvetica, Arial, sans-serif;
+}
+
+/* --- Secondary Font --- */
+
+.rp .unt-font,
+.rp .light-font,
+.progress-side h4.rp-styled,
+.progress-side .items-50 p,
+.region-indicators p,
+.region-indicators p strong {
+  font-family: 'RobotoLight', sans-serif;
+}
+
+.rp .unb-font,
+.cover-headers h1 span,
+ul.rp-nav a.active,
+.progress-side h4.rp-styled .rp-highlight {
+  font-family: 'RobotoBold', sans-serif;
+}
+
+.rp .unsb-font {
+  font-family: 'RobotoSemibold', sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  h2.region-name {
+    font-family: 'RobotoBold', sans-serif;
+  }
+}
+
+/*
+   .-----------------------------------------------------.
+   |                       GENERAL                       |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |                     BACKGROUNDS                     |
+   '-----------------------------------------------------'
+*/
+
+.rp .bg {
+  background-image: none;
+}
+
+.rp .bg-1 {
+  background-color: #fff;
+}
+
+.rp .bg-3 {
+  background-color: #f2eee3;
+}
+
+.rp .bg-4 {
+  background-color: #fff;
+}
+
+.rp .bg-5 {
+  background-color: #f2eee3;
+}
+
+.rp .bg-6 {
+  background-color: #fff;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                        COVER                        |
+   '-----------------------------------------------------'
+*/
+
+.rp-cover {
+  padding-bottom: 0;
+}
+
+.cover-2 {
+  background: url(../images/cover-2015.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 625px;
+  padding: 43px 80px 45px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.cover-2 h1 {
+  margin: 0;
+  padding: 0 0 31px 3px;
+  font-size: 1.813em;
+  line-height: 1.35em;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.cover-2 h2 {
+  margin: 0 0 0 -3px;
+  padding: 22px 0 27px 0;
+  font-size: 4.95em;
+  line-height: 1.08em;
+  color: #050505;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.cover-sep {
+  display: block;
+  width: 200px;
+  height: 3px;
+  overflow: hidden;
+}
+
+.cover-sep-2 {
+  margin-bottom: 32px;
+}
+
+a.rp-download-2,
+a.rp-download-2:hover {
+  padding-left: 3px;
+  font-size: 1.313em;
+  line-height: 1.35em;
+  color: #f7941e;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+}
+
+a.rp-download-2:hover {
+  color: #050505;
+}
+
+@media all and (max-width: 1150px) {
+  .cover-2 {
+    padding: 40px;
+    min-height: 525px;
+  }
+
+  .rp .cover-2 h2 {
+    font-size: 3.95em;
+    line-height: 1.08em;
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .rp .cover-2 h2 {
+    font-size: 3.45em;
+    line-height: 1.08em;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cover-2 {
+    min-height: 0;
+    padding: 40px;
+  }
+
+  .rp .cover-2 h2 {
+    font-size: 2.95em;
+    line-height: 1.08em;
+    padding-left: 3px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .cover-2 {
+    background-image: url(../images/cover-mobile-2015.jpg);
+    background-position: 0 0;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .rp .cover-2 h1 {
+    font-size: 1.313em;
+    line-height: 1.35em;
+  }
+}
+
+
+/*
+   .-----------------------------------------------------.
+   |                 SECTIONS - CORE CSS                 |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |                         NAV                         |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |                      MOBILE NAV                     |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |               SECTION CONTENT - SHARED              |
+   '-----------------------------------------------------'
+*/
+
+/* --- Restyled Read More --- */
+
+html.js .rp-readmore,
+.section-5 .item a.rp-readmore {
+  /* Restyle */
+  color: #000;
+  padding-bottom: 18px;
+  /* Remove text */
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+html.js .rp-readmore span,
+.section-5 .item a.rp-readmore span {
+  width: 38px;
+  height: 17.5px;
+  margin-left: -19px;
+  background: url(../images/ico-readmore-2.png) 0 0 no-repeat;
+  background-size: 38px 35px;
+}
+
+html.js .rp-readmore-expanded span,
+.section-5 .item a.rp-readmore-expanded span {
+  background-position: 0 -17.5px;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 1                      |
+   '-----------------------------------------------------'
+*/
+
+.section-1 .items-50 .item:nth-child(odd) {
+  width: 58%;
+  padding-right: 20px;
+}
+
+.section-1 .items-50 .item:nth-child(even) {
+  width: 42%;
+  padding-top: 7px;
+}
+
+.section-1 .items-50 {
+  font-size: 1.125em;
+  line-height: 1.55em;
+}
+
+/* --- Replaced .rp-video with new .rp-photo --- */
+
+.rp-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.rp-photo-label {
+
+}
+
+/* --- Restyled Intro Facts --- */
+
+h2.intro-facts-head {
+  margin-top: 3em;
+}
+
+.intro-facts {
+  margin-top: 0;
+}
+
+.intro-facts .fact-desc {
+  color: #f7941d;
+  font-size: 1.5em;
+  line-height: 1.250em;
+}
+
+.intro-facts .fact-with-imgnumb .fact-graph {
+  height: 250px;
+}
+
+.intro-facts .graph-imgnumb {
+  max-width: none;
+  text-align: left;
+  font-size: 3em;
+  line-height: 1.05em;
+}
+
+.intro-facts .graph-imgnumb img {
+  max-width: 236px;
+}
+
+.intro-facts .graph-imgnumb-numb {
+  color: #919090;
+  height: 1.05em;
+}
+
+.intro-facts .fact-with-imgnumb .fact-desc {
+  text-align: left;
+  max-width: 370px;
+  margin: 0;
+}
+
+/* --- New Elements Not Present In Report 2014 --- */
+
+h3.intro-line-header {
+  font-size: 1.250em;
+  line-height: 1.35em;
+  border-bottom: 2px solid #c4c3c4;
+  margin: 2em 0 0 0;
+  padding-bottom: 8px;
+}
+
+.intro-numbcols {
+  padding-top: 25px;
+  font-size: 2em;
+  line-height: 1.111em;
+  color: #f78d1e;
+  margin-bottom: -28px;
+}
+
+.intro-numbcols ul {
+  margin-left: -20px;
+}
+
+html.js .intro-numbcols ul {
+  opacity: 0;
+}
+
+html.js .intro-numbcols ul.animated {
+  opacity: 1;
+}
+
+.intro-numbcols ul li {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+
+.intro-numbcols li strong,
+.intro-numbcols li span {
+  display: block;
+}
+
+.intro-numbcols li strong {
+  font-size: 1.250em;
+  line-height: 1.067em;
+}
+
+.intro-numbcols li span {
+  color: #868380;
+}
+
+@media all and (max-width: 1200px) {
+  .intro-numbcols ul li {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .rp .intro-facts .fact {
+    border: 0;
+    padding-bottom: 10px;
+  }
+
+  .rp .intro-facts .fact:last-child {
+    padding-bottom: 26px;
+  }
+
+  .rp .intro-facts .fact-with-imgnumb .fact-graph,
+  .rp .intro-facts .fact-with-imgnumb .fact-desc {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .intro-facts .graph-imgnumb {
+    text-align: center;
+  }
+
+  .rp .intro-facts .fact-with-imgnumb .fact-desc {
+    display: block;
+    padding-top: 3px;
+    text-align: center;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 640px) {
+  h2.intro-facts-head {
+    margin-top: 2em;
+  }
+
+  h3.intro-line-header {
+    margin-top: 1.3em;
+  }
+
+  .section-1 .items-50 .item:nth-child(odd) {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .section-1 .items-50 .item:nth-child(even) {
+    width: 100%;
+    padding-top: 7px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .intro-numbcols ul {
+    margin-left: 0;
+  }
+
+  .intro-numbcols ul li {
+    width: 100%;
+    padding-left: 0;
+    float: none;
+  }
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 2                      |
+   '-----------------------------------------------------'
+*/
+
+/* Section Removed */
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 3                      |
+   '-----------------------------------------------------'
+*/
+
+.rp-tiles {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.rp-tiles > ul {
+  width: 104%;
+  width: calc(100% + 30px);
+}
+
+.js .rp-tiles > ul {
+  width: 100%;
+}
+
+.rp-tiles > ul > li {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.rp-tile-title {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+/* --- Tile Collapsed --- */
+
+.rp-tile-collapsed {
+  width: 210px;
+  height: 210px;
+  background: #f2eee3;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-collapsed button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* Reset */
+  border: 0;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rp-tile-collapsed img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-collapsed span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border: 10px solid transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.rp-tile-collapsed a:hover span {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* --- Tile Expanded --- */
+
+.rp-tile-expanded {
+  display: none;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.rp-tile-close {
+  display: block;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: rgba(0, 0, 0, 0.5) url(../images/tile-close.png) center center no-repeat;
+  background-size: 16px 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  /* Reset */
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rp-tile-photo {
+  width: 100%;
+  height: 0;
+  /* 450 x 212 px */
+  padding-bottom: 47.1111%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-photo img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.rp-tile-photo .rp-tile-copyright {
+  display: block;
+  padding: 2px 7px;
+  font-size: 0.813em;
+  line-height: 1.35em;
+  color: #eee;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.rp-tile-titleimg {
+  width: 100%;
+  height: 0;
+  /* 450 x 76 px */
+  padding-bottom: 16.8888%;
+  overflow: hidden;
+  position: relative;
+}
+
+.rp-tile-titleimg img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rp-tile-text {
+  padding: 12px 20px;
+  font-size: 0.9em;
+  line-height: 1.35em;
+}
+
+.rp-tile-text > *:first-child {
+  margin-top: 0;
+}
+
+.rp-tile-text > *:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 768px) {
+  .rp-tiles > ul {
+    width: 100%;
+  }
+
+  .rp-tiles > ul > li {
+    margin-right: 0;
+  }
+
+  .rp-tile-collapsed,
+  .rp-tile-close {
+    display: none;
+  }
+
+  .rp-tile-expanded {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 4                      |
+   '-----------------------------------------------------'
+*/
+
+.section-4 {
+  color: #181818;
+}
+
+.action-header h2 {
+  font-size: 2.188em;
+  line-height: 1.2em;
+}
+
+.section-4 .rp-video-label {
+  color: #181818;
+}
+
+.action-highlights p span.rp-highlight {
+  color: #555;
+}
+
+.section-4 .rp-color-7 {
+  color: #181818;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 5                      |
+   '-----------------------------------------------------'
+*/
+
+.region-intro {
+  background: #fff;
+  color: #181818;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.region-intro p {
+  font-size: 0.875em;
+  line-height: 1.417em;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 6                      |
+   '-----------------------------------------------------'
+*/
+
+.income-expenses {
+  background: url(../images/income-expenses.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 44px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+
+.income-expenses h2 {
+  margin: -9px 0 0 0;
+  max-width: 430px;
+  font-size: 1.563em;
+  line-height: 1.4em;
+  color: #444;
+  min-height: 210px;
+  text-shadow: 0 0 3px #fff;
+}
+
+a.incexp-link,
+a.incexp-link:hover {
+  float: left;
+  background: #f4f1e4;
+  border-radius: 11px;
+  font-size: 1.063em;
+  line-height: 1.35em;
+  color: #f7941e;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  transition: color 0.5s, background 0.5s;
+}
+
+a.incexp-link:hover {
+  background: #f7941e;
+  color: #fff;
+}
+
+.incexp-link-inner {
+  display: block;
+  padding: 12px 48px 12px 16px;
+  position: relative;
+}
+
+.incexp-link-triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 0 8px 13.9px;
+  border-color: transparent transparent transparent #f79721;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin-top: -8px;
+  transition: border-color 0.5s;
+}
+
+a.incexp-link:hover .incexp-link-triangle {
+  border-color: transparent transparent transparent #fff;
+}
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}

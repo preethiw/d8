@@ -1,0 +1,21 @@
+uuid: 2e782041-df90-4aa6-a101-d75244fcc9f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publish_on_home
+    - node.type.slideshow
+  module:
+    - options
+id: node.slideshow.field_publish_on_home
+field_name: field_publish_on_home
+entity_type: node
+bundle: slideshow
+label: 'Publish on Home'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,14 @@
+uuid: e5b98023-0bfb-4678-96c2-5c43a49daf92
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.www_unfpa_org
+  module:
+    - domain_access
+id: domain_access_add_editor_action.www_unfpa_org
+label: 'Add editors to the UNFPA - United Nations Population Fund domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: www_unfpa_org

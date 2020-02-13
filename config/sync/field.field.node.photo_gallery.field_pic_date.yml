@@ -1,0 +1,21 @@
+uuid: ed55e879-acc6-459c-b1f8-125f5366c6f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pic_date
+    - node.type.photo_gallery
+  module:
+    - datetime
+id: node.photo_gallery.field_pic_date
+field_name: field_pic_date
+entity_type: node
+bundle: photo_gallery
+label: 'Photo date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

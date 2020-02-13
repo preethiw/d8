@@ -1,0 +1,8 @@
+uuid: 44ae8af6-db07-4c64-acab-7f2f334f4d7b
+langcode: en
+status: true
+dependencies: {  }
+name: Regions
+vid: regions
+description: 'Regions Category for Global Country Content Type'
+weight: 0

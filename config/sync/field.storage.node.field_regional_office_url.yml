@@ -1,0 +1,19 @@
+uuid: 54b00ce8-72f1-416d-8b2c-5b4f871fc65c
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_regional_office_url
+field_name: field_regional_office_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

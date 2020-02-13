@@ -1,0 +1,14 @@
+uuid: 3c4ed22e-0356-411f-a2b9-dea71ed9a5a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.www_unfpa_org
+  module:
+    - domain_access
+id: domain_access_remove_action.www_unfpa_org
+label: 'Remove selected content from the UNFPA - United Nations Population Fund domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id: www_unfpa_org

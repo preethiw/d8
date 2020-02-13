@@ -1,0 +1,15 @@
+uuid: 5cfedc8a-e4ca-4ef3-aa7d-735d74c81974
+langcode: en
+status: true
+dependencies: {  }
+name: news_map
+label: 'News Map 210x80'
+effects:
+  4d4f5642-2670-4fa9-aa9c-a2196da92066:
+    uuid: 4d4f5642-2670-4fa9-aa9c-a2196da92066
+    id: image_scale
+    weight: 1
+    data:
+      width: 210
+      height: null
+      upscale: false

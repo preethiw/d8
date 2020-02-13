@@ -1,0 +1,1480 @@
+/*
+   .-----------------------------------------------------.
+   |                        FONTS                        |
+   '-----------------------------------------------------'
+*/
+
+.rp {
+  /* OpenSansRegular */
+  color: #4d4d4f;
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.rp * {
+  font-family: inherit;
+}
+
+.rp .t-font,
+.rp .rp-exp-1 h5,
+.intro-numbcols span,
+.rp .intro-facts .graph-imgnumb-numb,
+.rp .action-facts .graph-imgnumb-numb {
+  font-family: 'RobotoLight', Helvetica, Arial, sans-serif;
+}
+
+.rp strong,
+.rp .b-font,
+.cover-2 h1 span {
+  font-family: 'RobotoBold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.rp .reg-font,
+.intro-numbcols strong,
+.intro-facts .fact-desc {
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.rp em,
+.rp .em-font {
+  font-family: 'RobotoItalic', Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+
+.rp h2 {
+  color: #4d4d4f;
+  font-family: 'RobotoBold', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.rp .sb-font,
+.rp h1,
+.rp h2,
+.rp h3,
+.rp h4,
+.graph-doughnut.doughnut-color-2 .chart-label-wrap,
+.bar-alt-color .graph-bar .bar-prev-label,
+.bar-alt-color .graph-bar .bar-current-label,
+.intro-facts .fact-desc .rp-highlight,
+ul.exp-list-total li:last-child,
+.exp-chart h5 {
+  font-family: 'RobotoSemibold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+
+}
+
+.rp .sbem-font {
+  font-family: 'RobotoItalic', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rp .con-font {
+  font-family: 'OpenSansCondensedBold', Helvetica, Arial, sans-serif;
+}
+
+/* --- Secondary Font --- */
+
+.rp .unt-font,
+.rp .light-font,
+.progress-side h4.rp-styled,
+.progress-side .items-50 p,
+.region-indicators p,
+.region-indicators p strong {
+  font-family: 'Robotobold', sans-serif;
+}
+
+.rp .unb-font,
+.cover-headers h1 span,
+ul.rp-nav a.active,
+.progress-side h4.rp-styled .rp-highlight {
+  font-family: 'RobotoBold', sans-serif;
+}
+
+.rp .unsb-font {
+  font-family: 'RobotoSemibold', sans-serif;
+}
+
+.rp p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* --- Colors --- */
+
+/* Orange intensive, default headers, submenu header, submenu active bg, level bar top */
+.rp *.rp-color-1 { color: #F7941E; }
+
+.rp *.rp-bg-1 {background: #F7941E;}
+
+/*
+   .-----------------------------------------------------.
+   |                       GENERAL                       |
+   '-----------------------------------------------------'
+*/
+
+/* top level container */
+.rp .rp-section h3 {
+  font-family: 'RobotoSemibold',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.items-50 .item {
+  width: 33%;
+}
+
+.items-50 .item:nth-child(odd) {
+  clear: none;
+}
+
+
+/*
+   .-----------------------------------------------------.
+   |                     BACKGROUNDS                     |
+   '-----------------------------------------------------'
+*/
+
+.rp .bg {
+  background-image: none;
+}
+
+.rp .bg-1 {
+  background-color: #fff;
+}
+
+.rp .bg-3 {
+  background-color: #f2eee3;
+}
+
+.rp .bg-4 {
+  background-color: #fff;
+}
+
+.rp .bg-5 {
+  background-color: #f2eee3;
+}
+
+.rp .bg-6 {
+  background-color: #ececec;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                        COVER                        |
+   '-----------------------------------------------------'
+*/
+
+.rp-cover {
+  padding-bottom: 0;
+}
+
+.cover-2 {
+  background: url(../images/transprent-intro.png) center center no-repeat;
+  background-size: cover;
+  min-height: 625px;
+  padding: 43px 80px 45px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.cover-2 h1 {
+  font-family: 'RobotoBold', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0 0 31px 3px;
+  font-size: 1.813em;
+  line-height: 1.35em;
+  text-shadow: 0 0;
+  text-transform: uppercase;
+}
+
+.cover-2 h2 {
+  margin: 0 0 0 -3px;
+  padding: 20px 0 102px 0;
+  font-size: 4.95em;
+  line-height: 1.08em;
+  color: #4D4D4F;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.cover-sep {
+  display: block;
+  width: 200px;
+  height: 3px;
+  overflow: hidden;
+}
+
+.cover-sep-2 {
+  margin-bottom: 32px;
+}
+
+a.rp-download-2,
+a.rp-download-2:hover,
+a.rp-download-2:visited {
+  padding-left: 3px;
+  font-family: 'RobotoBold', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.35em;
+  color: #F99E1E;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  text-shadow: 0 0;
+}
+
+a.rp-download-2:hover {
+  color: #050505;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                 SECTIONS - CORE CSS                 |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |                         NAV                         |
+   '-----------------------------------------------------'
+*/
+
+/* Black text nav */
+
+#nav-black a {
+  font-family: 'RobotoSemibold', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#nav-black ul li a {
+  font-size: 9px;
+}
+
+#nav-white ul a.active, #nav-black ul a.active {
+  background: transparent;
+  color: #f7941d;
+}
+
+#nav-white a.active, #nav-black a.active {
+  color: #f7941d;
+  background: transparent;
+}
+/*
+   .-----------------------------------------------------.
+   |                      MOBILE NAV                     |
+   '-----------------------------------------------------'
+*/
+
+
+
+/*
+   .-----------------------------------------------------.
+   |               SECTION CONTENT - SHARED              |
+   '-----------------------------------------------------'
+*/
+
+/* --- Restyled Read More --- */
+
+html.js .rp-readmore,
+.section-5 .item a.rp-readmore {
+  /* Restyle */
+  color: #000;
+  padding-bottom: 18px;
+  /* Remove text */
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+html.js .rp-readmore span,
+.section-5 .item a.rp-readmore span {
+  width: 38px;
+  height: 17.5px;
+  margin-left: -19px;
+  background: url(../images/ico-readmore-2.png) 0 0 no-repeat;
+  background-size: 38px 35px;
+}
+
+html.js .rp-readmore-expanded span,
+.section-5 .item a.rp-readmore-expanded span {
+  background-position: 0 -17.5px;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 1                      |
+   '-----------------------------------------------------'
+*/
+
+.section-1 .items-50 .item:nth-child(odd) {
+  width: 58%;
+  padding-right: 20px;
+}
+
+.section-1 .items-50 .item:nth-child(even) {
+  width: 42%;
+  padding-top: 7px;
+}
+
+.section-1 .items-50 {
+  font-size: 1.125em;
+  line-height: 1.55em;
+}
+
+/* --- Replaced .rp-video with new .rp-photo --- */
+
+.rp-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.rp-photo strong {
+  color: #f7941d;
+}
+
+/* --- Restyled Intro Facts --- */
+
+h2.intro-facts-head {
+  margin-top: 3em;
+}
+
+.intro-facts {
+  margin-top: 0;
+}
+
+.intro-facts .fact-desc {
+  color: #f7941d;
+  font-size: 1.5em;
+  line-height: 1.250em;
+}
+
+.intro-facts .fact-with-imgnumb .fact-graph {
+  height: auto;
+}
+
+.intro-facts .graph-imgnumb {
+  max-width: none;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.05em;
+}
+
+.intro-facts .graph-imgnumb img {
+  max-width: 151px;
+}
+
+.intro-facts .graph-imgnumb-numb,
+.action-facts .graph-imgnumb-numb {
+  color: #4d4d4f;
+  font-size: 42px;
+  height: 1.05em;
+  margin: 45px 0 20px;
+}
+
+.intro-facts .fact-with-imgnumb .fact-desc {
+  text-align: center;
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+.intro-facts .fact-desc > p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* --- Action Facts --- */
+
+.action-facts {
+  margin-bottom: 0;
+}
+
+.action-facts .fact-graph {
+  height: auto;
+}
+
+.action-facts .fact .fact-name {
+  background: none transparent;
+  border-bottom: 2px solid #4d4d4f;
+  margin-top: -6px;
+}
+
+/* --- Graph: Image + Number --- */
+
+.graph-imgnumb img {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+/* --- New Elements Not Present In Report 2014 --- */
+
+h3.intro-line-header {
+  font-size: 1.250em;
+  line-height: 1.35em;
+  border-bottom: 2px solid #4d4d4f;
+  margin: 2em 0 0 0;
+  padding-bottom: 8px;
+}
+
+.intro-numbcols {
+  padding-top: 25px;
+  font-size: 2em;
+  line-height: 1.111em;
+  color: #f78d1e;
+  margin-bottom: -28px;
+}
+
+.intro-numbcols ul {
+  margin-left: -20px;
+}
+
+html.js .intro-numbcols ul {
+  opacity: 0;
+}
+
+html.js .intro-numbcols ul.animated {
+  opacity: 1;
+}
+
+.intro-numbcols ul li {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+
+.intro-numbcols li strong,
+.intro-numbcols li span {
+  display: block;
+}
+
+.intro-numbcols li strong {
+  font-size: 1.250em;
+  line-height: 1.067em;
+}
+
+.intro-numbcols li span {
+  color: #868380;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 3                      |
+   '-----------------------------------------------------'
+*/
+
+.rp-tiles {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.rp-tiles > ul {
+  width: 104%;
+  width: calc(100% + 30px);
+}
+
+.js .rp-tiles > ul {
+  width: 100%;
+}
+
+.rp-tiles > ul > li {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.rp-tile-title {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+/* --- Tile Collapsed --- */
+
+.rp-tile-collapsed {
+  width: 210px;
+  height: 210px;
+  background: #f2eee3;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-collapsed button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* Reset */
+  border: 0;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rp-tile-collapsed img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-collapsed span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border: 10px solid transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: border 0.3s;
+}
+
+.rp-tile-collapsed a:hover span {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* --- Tile Expanded --- */
+
+.rp-tile-expanded {
+  display: none;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.rp-tile-close {
+  display: block;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: rgba(0, 0, 0, 0.5) url(../images/tile-close.png) center center no-repeat;
+  background-size: 16px 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  /* Reset */
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rp-tile-photo {
+  width: 100%;
+  height: 0;
+  padding-bottom: 47.1111%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rp-tile-photo img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.rp-tile-photo .rp-tile-copyright {
+  display: block;
+  padding: 2px 7px;
+  font-size: 0.813em;
+  line-height: 1.35em;
+  color: #eee;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.rp-tile-titleimg {
+  width: 100%;
+  height: 0;
+  padding-bottom: 16.8888%;
+  overflow: hidden;
+  position: relative;
+}
+
+.rp-tile-titleimg img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rp-tile-text {
+  padding: 12px 20px;
+  font-size: 0.9em;
+  line-height: 1.35em;
+}
+
+.rp-tile-text > *:first-child {
+  margin-top: 0;
+}
+
+.rp-tile-text > *:last-child {
+  margin-bottom: 0;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 4                      |
+   '-----------------------------------------------------'
+*/
+
+.section-4 {
+  color: #181818;
+}
+
+.action-header h2 {
+  font-size: 2.188em;
+  line-height: 1.2em;
+  color: #404040;
+}
+
+.section-4 .rp-video-label {
+  color: #181818;
+}
+
+.action-highlights p span.rp-highlight {
+  color: #555;
+}
+
+.section-4 .rp-color-7 {
+  color: #f7941e;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section-4 .in-action-bg-color {
+  background-color: #fff1dd;
+}
+
+.section-4 .section-main-copy {
+  padding: 0 20px 10px;
+}
+
+.action-titles {
+  position: relative;
+  padding: 15px 0;
+}
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 5                      |
+   '-----------------------------------------------------'
+*/
+
+.section-5 .region-block {
+  position: relative;
+}
+
+.section-5 .region-block h2.region-name {
+  border: 0 none;
+  font-size: 64px;
+  left: 0;
+  position: absolute;
+  top: 35px;
+  width: 48%;
+}
+
+.region-intro {
+  background: #fff;
+  color: #181818;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.region-intro p {
+  font-size: 0.875em;
+  line-height: 1.417em;
+}
+
+.rp .region-block h3 {
+  color: #4d4d4f;
+  text-align: left;
+}
+
+.rp .region-block .rp-color-1.progress-copy {
+  color: #4d4d4f;
+  font-family: 'RobotoLight',Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+.rp .region-block .rp-exp .exp-title h4 {
+  color: #f7941e;
+}
+
+h3.region-subheader span {
+  margin: 0 0 10px;
+}
+
+h3.region-subheader span::before, h3.region-subheader span::after {
+  content: none;
+}
+
+.rp .region-progress h4 {
+  font-family: "RobotoLight", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.graph-doughnut .chart-label-wrap{
+  background:none transparent;
+}
+
+ul.exp-legend li b {
+  margin-left: 18px;
+}
+
+/*--region africa-es start--*/
+
+.africa-east-and-southern h2.region-name {
+  color: #fcc300;
+}
+
+.africa-east-and-southern h3.region-subheader {
+  border-bottom: 2px solid #fcc300;
+}
+
+.rp .africa-east-and-southern h1,
+.rp .africa-east-and-southern h2,
+.rp .africa-east-and-southern h4 {
+  color: #fcc300;
+}
+
+.rp .africa-east-and-southern .region-indicators.rp-bg-1 {
+  background: #fcc300;
+}
+
+/*--region africa-es end--*/
+
+/*--region africa-wc start--*/
+
+.africa-west-and-central h2.region-name {
+  color: #ea5b24;
+}
+
+.africa-west-and-central h3.region-subheader {
+  border-bottom: 2px solid #ea5b24;
+}
+
+.rp .africa-west-and-central h1,
+.rp .africa-west-and-central h2,
+.rp .africa-west-and-central h4 {
+  color: #ea5b24;
+}
+
+.rp .africa-west-and-central .region-indicators.rp-bg-1 {
+  background: #ea5b24;
+}
+
+/*--region africa-wc end--*/
+
+/*--region arab start--*/
+
+.arab-states h2.region-name {
+  color: #c7d300;
+}
+
+.arab-states h3.region-subheader {
+  border-bottom: 2px solid #c7d300;
+}
+
+.rp .arab-states h1,
+.rp .arab-states h2,
+.rp .arab-states h4 {
+  color: #c7d300;
+}
+
+.rp .arab-states .region-indicators.rp-bg-1 {
+  background: #c7d300;
+}
+
+/*--region arab end--*/
+
+/*--region asia and the pacific start--*/
+
+.asia-and-the-pacific h2.region-name {
+  color: #73c3db;
+}
+
+.asia-and-the-pacific h3.region-subheader {
+  border-bottom: 2px solid #73c3db;
+}
+
+.rp .asia-and-the-pacific h1,
+.rp .asia-and-the-pacific h2,
+.rp .asia-and-the-pacific h4 {
+  color: #73c3db;
+}
+
+.rp .asia-and-the-pacific .region-indicators.rp-bg-1 {
+  background: #73c3db;
+}
+
+/*--region asia and the pacific end--*/
+
+/*--region eastern europe and central asia start--*/
+
+.eastern-europe-and-central-asia h2.region-name {
+  color: #eb609f
+}
+
+.eastern-europe-and-central-asia h3.region-subheader {
+  border-bottom: 2px solid #eb609f;
+}
+
+.rp .eastern-europe-and-central-asia h1,
+.rp .eastern-europe-and-central-asia h2,
+.rp .eastern-europe-and-central-asia h4 {
+  color: #eb609f;
+}
+
+.rp .eastern-europe-and-central-asia .region-indicators.rp-bg-1 {
+  background: #eb609f;
+}
+
+/*--region eastern europe and central asia end--*/
+
+/*--region latin america and the caribbean start--*/
+
+.latin-america-and-the-caribbean h2.region-name {
+  color: #449cd6;
+}
+
+.latin-america-and-the-caribbean h3.region-subheader {
+  border-bottom: 2px solid #449cd6;
+}
+
+.rp .latin-america-and-the-caribbean h1,
+.rp .latin-america-and-the-caribbean h2,
+.rp .latin-america-and-the-caribbean h4 {
+  color: #449cd6;
+}
+
+.rp .latin-america-and-the-caribbean .region-indicators.rp-bg-1 {
+  background: #449cd6;
+}
+
+/*--region latin america and the caribbean end--*/
+
+/*
+   .-----------------------------------------------------.
+   |                      SECTION 6                      |
+   '-----------------------------------------------------'
+*/
+
+.income-expenses {
+  background: url(../images/income-expenses.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 44px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+
+.income-expenses h2 {
+  margin: -9px 0 0 0;
+  max-width: 430px;
+  font-size: 1.563em;
+  line-height: 1.4em;
+  color: #444;
+  min-height: 210px;
+  text-shadow: 0 0 3px #fff;
+}
+
+a.incexp-link,
+a.incexp-link:hover {
+  float: left;
+  background: #f4f1e4;
+  border-radius: 11px;
+  font-size: 1.063em;
+  line-height: 1.35em;
+  color: #f7941e;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.35);
+  transition: color 0.5s, background 0.5s;
+}
+
+a.incexp-link:hover {
+  background: #f7941e;
+  color: #fff;
+}
+
+.incexp-link-inner {
+  display: block;
+  padding: 12px 48px 12px 16px;
+  position: relative;
+}
+
+.incexp-link-triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 0 8px 13.9px;
+  border-color: transparent transparent transparent #f79721;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin-top: -8px;
+  transition: border-color 0.5s;
+}
+
+a.incexp-link:hover .incexp-link-triangle {
+  border-color: transparent transparent transparent #fff;
+}
+
+.rp-section #transparency .dash-sec-title {
+  background-color: transparent;
+  padding: 5px 15px;
+  border-bottom: 4px #d2d2d2 solid;
+  min-height: 30px;
+}
+
+.rp-section #transparency .section-title {
+  overflow: hidden;
+  border: 0;
+  margin: 0 -1px -1px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.rp-section #transparency .dash-sec-content {
+  border: 0 none;
+  padding: 20px 10px 10px;
+}
+
+.rp-section #transparency #donut-chart-tabs ul li {
+  background: none transparent;
+}
+
+.rp-section #transparency #donut-chart-tabs ul li span {
+  color: #4d4d4f;
+  padding: 10px 14px;
+}
+
+.rp-section #transparency #donut-chart-tabs ul li.active span {
+  background: none transparent;
+  border-bottom: 2px solid #4d4d4f;
+  color: #f7941e;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li {
+  width: 32%;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li:last-child {
+  display: none;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a {
+  background-color: transparent;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a::before {
+  box-shadow: none;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a:hover::before {
+  box-shadow: none;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a:hover .title-wrapper .transparency-portal-section-title {
+  color: #f7941e;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a span.transparency-portal-section-icon {
+  display: block;
+  position: relative;
+  text-align: center;
+  left: 0;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a .title-wrapper {
+  text-align: center;
+}
+
+.rp-section #transparency ul.transparency-portal-section-list li a .title-wrapper .transparency-portal-section-title {
+  padding: 0;
+  position: relative;
+}
+
+.rp-section #transparency #donut-chart-tabs {
+  background: none transparent;
+}
+
+.rp-upper {
+  text-transform: none;
+}
+
+.items-7-5 .item {
+  width: 100%;
+}
+
+.rm-section {
+  background-color: #ececec;
+  padding: 10px;
+}
+
+.strategy-partner h5,.private-sectors h5 {
+  border-bottom: #4d4d4f 2px solid;
+  color: #f7941d;
+  font-family: 'RobotoSemibold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 5px;
+  line-height: 40px;
+  width: 100%;
+}
+
+#pvtsec th {
+  color: #f7941d;
+  text-align: left;
+}
+
+#pvtsec {
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#pvtsec tr {
+  border-bottom: #f7941d 1px solid;
+}
+
+#pvtsec tr:first-child td {
+  text-align: right;
+}
+
+#pvtsec tr:first-child td:nth-child(3),
+#pvtsec tr:first-child td:nth-child(4) {
+  width: 125px;
+}
+
+#pvtsec tr:first-child td:last-child {
+  text-align: right;
+}
+
+#pvtsec tr th sup {
+  font-size: 10px;
+  padding: 0 5px;
+}
+
+#pvtsec tr td:first-child,
+#pvtsec tr th:first-child {
+  padding-left: 0;
+}
+
+#pvtsec tr td:last-child {
+  padding-right: 0;
+}
+
+#pvtsec td {
+  padding: 0 20px;
+  text-align: right;
+}
+
+.rm-table-footnote-wrapper {
+  margin: 20px 0 40px;
+}
+
+.rm-table-footnote-wrapper .footnote-cols {
+  font-size: 11px;
+  float: left;
+  line-height: 16px;
+  margin: 0 1% 0 0;
+  width: 48%;
+}
+
+.rm-table-footnote-wrapper .footnote-cols span.footnote-number {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  vertical-align: top;
+  width: 4%;
+}
+
+.rm-table-footnote-wrapper .footnote-cols span.footnote-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 92%;
+}
+
+.rp-section #transparency .transparency-portal-section-icon img{
+  display: none;
+}
+
+.rp-section #transparency .transparency-portal-section-icon {
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 102px;
+  height: 102px;
+  margin: 0 auto;
+}
+
+.rp-section #transparency .programme-expenses-icon {
+  background-image: url(../images/programme-expenses.png);
+}
+
+.rp-section #transparency .donor-contributions-icon {
+  background-image:  url(../images/donors-contribution.png);
+}
+
+.rp-section #transparency .total-need-icon {
+  background-image:  url(../images/total-need.png);
+}
+
+.rp-section #transparency .annual-report-icon {
+  background-image:  url(../images/annual-report.png);
+}
+
+/*
+   .-----------------------------------------------------.
+   |              Responsive css start                    |
+   '-----------------------------------------------------'
+*/
+
+@media all and (max-width: 1200px) {
+  .intro-numbcols ul li {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 1150px) {
+  .cover-2 {
+    padding: 40px;
+    min-height: 525px;
+  }
+
+  .rp .cover-2 h2 {
+    font-size: 3.95em;
+    line-height: 1.08em;
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .cover-2 {
+    background-size: contain;
+    min-height: 0;
+    padding: 40px;
+  }
+
+  .rp .cover-2 h2 {
+    font-size: 3.45em;
+    line-height: 1.08em;
+  }
+
+  .section-5 .region-block h2.region-name {
+    font-size: 52px;
+    width: 60%;
+  }
+
+  .rp-section #transparency ul.transparency-portal-section-list li {
+    width: 31.8%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .rp .cover-2 h2 {
+    font-size: 2.95em;
+    line-height: 1.08em;
+    padding-left: 3px;
+  }
+
+  .rp .intro-facts .fact {
+    border: 0;
+    padding-bottom: 10px;
+  }
+
+  .rp .intro-facts .fact:last-child {
+    padding-bottom: 26px;
+  }
+
+  .rp .intro-facts .fact-with-imgnumb .fact-graph,
+  .rp .intro-facts .fact-with-imgnumb .fact-desc {
+    float: none;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .intro-facts .graph-imgnumb {
+    text-align: center;
+  }
+
+  .rp .intro-facts .fact-with-imgnumb .fact-desc {
+    display: block;
+    padding-top: 3px;
+    text-align: center;
+    height: auto;
+  }
+
+  .rp-tiles > ul {
+    width: 100%;
+  }
+
+  .rp-tiles > ul > li {
+    margin-right: 0;
+  }
+
+  .rp-tile-collapsed,
+  .rp-tile-close {
+    display: none;
+  }
+
+  .rp-tile-expanded {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .region-header .region-photo img {
+    width: 100% !important;
+    margin-left: 0;
+  }
+
+  .action-facts p,
+  .action-facts.facts-even p {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .cover-2 {
+    background-image: url(../images/transprent-intro-mobile-2016.png);
+    background-position: 0 bottom;
+    min-height: 625px;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .cover-2 h2 {
+    margin: 0 0 0 -3px;
+    padding: 20px 0 78px 0;
+    font-size: 4.95em;
+    line-height: 1.08em;
+    color: #4D4D4F;
+    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+  }
+
+  h2.intro-facts-head {
+    margin-top: 2em;
+  }
+
+  h3.intro-line-header {
+    margin-top: 1.3em;
+  }
+
+  .section-1 .items-50 .item:nth-child(odd) {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .section-1 .items-50 .item:nth-child(even) {
+    width: 100%;
+    padding-top: 7px;
+  }
+
+  .items-50 .item {
+    width: auto;
+  }
+
+  .section-5 .region-block h2.region-name {
+    font-size: 46px;
+  }
+
+  .private-sectors .table-container {
+    height: 344px;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .rp-section #transparency ul.transparency-portal-section-list li {
+    margin-top: 15%;
+    width: 48.6%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .intro-numbcols ul {
+    margin-left: 0;
+  }
+
+  .intro-numbcols ul li {
+    width: 100%;
+    padding-left: 0;
+    float: none;
+  }
+
+  .section-5 .region-block h2.region-name {
+    font-size: 32px;
+    top: 20px;
+    width: 60%;
+  }
+
+  .rp-section #transparency ul.transparency-portal-section-list li {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .region-header .region-photo img {
+    width: 98%;
+  }
+
+  .rp .cover-2 h1 {
+    font-size: 1.313em;
+    line-height: 1.35em;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .section-5 .region-block h2.region-name {
+    font-size: 28px;
+  }
+}
+.data.donut-chart-container, .data.donut_chart_container, .data.bchart_wrapper {
+  float: left;
+  height: 420px;
+  position: relative;
+  width: 50%;
+}
+#donut-chart-tabs, #donut_chart_tabs, #donut_chart_tabs1, #donut_chart_tabs2, #donut_chart_tabs3 {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+#donut-chart-tabs ul, #donut_chart_tabs ul, #donut_chart_tabs1 ul, #donut_chart_tabs2 ul, #donut_chart_tabs3 ul {
+
+  float: left;
+  list-style: outside none none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+#donut-chart-tabs ul li, #donut_chart_tabs ul li, #donut_chart_tabs1 ul li, #donut_chart_tabs2 ul li, #donut_chart_tabs3 ul li {
+  border-radius: 5px 5px 0 0;
+  float: left;
+  overflow: hidden;
+
+}
+#donut-chart-tabs ul li span, #donut_chart_tabs ul li span, #donut_chart_tabs1 ul li span, #donut_chart_tabs2 ul li span, #donut_chart_tabs3 ul li span {
+  display: block;
+  font-size: 14px;
+  font-family: 'robotobold';
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+.bchart, .bchart1, .bchart2, .bchart3, .donut-chart, .donut_chart, .donut_chart1, .donut_chart2, .donut_chart3 {
+  width: 100%;
+  height: 350px;
+  float: left;
+  position: absolute;
+  margin-top: 45px !important;
+}
+.data.donut_chart_container, .bchart-container, .bchart_container {
+  float: left;
+  width: 50%;
+  height: 420px;
+  position: relative;
+}
+#transparency .transparency-portal-bottom-section {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+#transparency ul.transparency-portal-section-list {
+  margin: 0;
+  padding: 0;
+}
+#transparency ul.transparency-portal-section-list li {
+  float: left;
+  list-style-type: none;
+  margin: 6% 0.5% 0;
+  position: relative;
+  width: 24%;
+}
+#transparency ul.transparency-portal-section-list li {
+  list-style-type: none;
+}
+#transparency ul.transparency-portal-section-list li a {
+  background-color: #3b3b3b;
+  color: #000000;
+  display: inline-block;
+  padding: 0;
+  height: 130px;
+  margin: 0px;
+  width: 100%;
+  position: relative;
+}
+#transparency ul.transparency-portal-section-list li a::before, #transparency ul.transparency-portal-section-list li a::after {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#transparency ul.transparency-portal-section-list li a::before {
+  transition: box-shadow 0.3s ease 0s;
+  z-index: 0;
+}
+#transparency ul.transparency-portal-section-list li a::before {
+  width: 100%;
+}
+.rp-section #transparency ul.transparency-portal-section-list li a .title-wrapper {
+  text-align: center;
+}
+#transparency ul.transparency-portal-section-list li a .title-wrapper {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}

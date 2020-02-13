@@ -1,0 +1,19 @@
+uuid: 94de197f-ea36-4948-b348-8acdabcc7241
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ssc_enrollment_boys
+    - node.type.ct_global_country
+id: node.ct_global_country.field_ssc_enrollment_boys
+field_name: field_ssc_enrollment_boys
+entity_type: node
+bundle: ct_global_country
+label: 'SSC enrollment Boys'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

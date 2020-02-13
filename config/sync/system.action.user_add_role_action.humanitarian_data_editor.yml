@@ -1,0 +1,14 @@
+uuid: 861529f6-8778-4c42-aaa7-17741c5fa9b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.humanitarian_data_editor
+  module:
+    - user
+id: user_add_role_action.humanitarian_data_editor
+label: 'Add the Humanitarian Data Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: humanitarian_data_editor

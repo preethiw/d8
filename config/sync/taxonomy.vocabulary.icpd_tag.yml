@@ -1,0 +1,8 @@
+uuid: a7a84737-e541-453b-9bcd-0f6e036d05ba
+langcode: en
+status: true
+dependencies: {  }
+name: 'ICPD tag'
+vid: icpd_tag
+description: 'Tag for ICPD Resources'
+weight: 0

@@ -1,0 +1,36 @@
+uuid: 78501e74-567f-494d-8c0c-c17938cb1b56
+langcode: en
+status: true
+dependencies: {  }
+id: programme_country_editor
+label: 'Programme Country editor'
+weight: 18
+is_admin: null
+permissions:
+  - 'access ckeditor link'
+  - 'access toolbar'
+  - 'access workbench'
+  - 'access workbench access by role'
+  - 'add media from remote sources'
+  - 'bypass workbench moderation'
+  - 'delete revisions'
+  - 'edit media'
+  - 'import media'
+  - 'moderate content from draft to needs_review'
+  - 'moderate content from needs_review to draft'
+  - 'moderate content from needs_review to published'
+  - 'revert revisions'
+  - 'show format selection for field_collection_item'
+  - 'show format selection for node'
+  - 'translate content'
+  - 'update ct_data_portal content on assigned domains'
+  - 'use text format custom_html'
+  - 'use text format full_html'
+  - 'use workbench_moderation my drafts tab'
+  - 'use workbench_moderation needs review tab'
+  - 'view all unpublished content'
+  - 'view moderation history'
+  - 'view moderation messages'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'

@@ -1,0 +1,15 @@
+uuid: 66cace4c-75de-4381-abd0-3a2b2deb98c9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - unfpa_global_migration
+id: unfpa
+label: 'UNFPA Data Migration'
+description: 'Data Migration from UNFPA D7 site to D8 site.'
+source_type: 'Drupal 7'
+module: null
+shared_configuration:
+  source:
+    key: legacy

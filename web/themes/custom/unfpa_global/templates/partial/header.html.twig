@@ -1,0 +1,42 @@
+<!-- //Top Header -->
+<div class="main-header">
+  <div class="wrapper">
+    {% if page.header %}
+      <div class="brand">
+        {{ page.header }}
+      </div>
+    {% endif %}
+    <div class="nav-btn">
+      <div id="toggle-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //Main navigation -->
+<nav class="main-nav">
+  {% if page.language_switcher %}
+    <div class="site-language">
+      {{ page.language_switcher }}
+    </div>
+  {% endif %}
+  <div class="search-field-wrapper">
+    <div class="search-button center-position">
+      <div class="search-icon"> </div>
+    </div>
+    <div class="search-m">
+      <input type="search">
+      <input type="submit">
+    </div>
+  </div>
+  {% if page.main_navigation %}
+    {{ page.main_navigation }}
+  {% endif %}
+  <a href="#" class="btn donate"><span>{{'Donate'|t}}</span><span class="icon"><img src="{{ base_path ~ directory }}/images/icon_donate.svg" alt=""></span></a>
+  <div class="search-box">
+    <input type="search" placeholder="Search here...">
+  </div>
+</nav><!-- Main navigation end -->

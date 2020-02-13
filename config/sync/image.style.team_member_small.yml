@@ -1,0 +1,15 @@
+uuid: f8b8e141-d19b-42a1-b2e2-e7e68460b81b
+langcode: en
+status: true
+dependencies: {  }
+name: team_member_small
+label: 'Team Member Small'
+effects:
+  f3cc173b-e641-40aa-ac75-9aa35e7946ef:
+    uuid: f3cc173b-e641-40aa-ac75-9aa35e7946ef
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 236
+      anchor: center-center

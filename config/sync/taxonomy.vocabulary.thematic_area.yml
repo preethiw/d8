@@ -1,0 +1,8 @@
+uuid: 3bbba0f8-52ef-490e-afce-e6428bd921ac
+langcode: en
+status: true
+dependencies: {  }
+name: 'Thematic Area'
+vid: thematic_area
+description: 'Thematic Area Category for Publication and News Content Type'
+weight: 1

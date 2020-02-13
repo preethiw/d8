@@ -1,0 +1,25 @@
+uuid: 3cc8d5d3-adb6-4f88-932f-72743961b53c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_source
+    - node.type.photo_gallery
+id: node.photo_gallery.field_domain_source
+field_name: field_domain_source
+entity_type: node
+bundle: photo_gallery
+label: 'Domain Source'
+description: 'Select the canonical domain for this content.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:domain'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: weight
+      direction: ASC
+field_type: entity_reference

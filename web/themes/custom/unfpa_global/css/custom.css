@@ -1,0 +1,11 @@
+.site-language a.is-active {
+  color: #000000; 
+}
+@media (max-width: 1090px) {
+  .site-language a.is-active {
+    color: #FFFFFF; 
+  } 
+}
+.path-frontpage .footerWrapper {
+  position: relative;
+}

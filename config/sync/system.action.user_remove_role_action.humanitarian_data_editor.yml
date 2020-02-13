@@ -1,0 +1,14 @@
+uuid: 50d467f9-64cb-4ec3-b616-0e2fd2e3b9bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.humanitarian_data_editor
+  module:
+    - user
+id: user_remove_role_action.humanitarian_data_editor
+label: 'Remove the Humanitarian Data Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: humanitarian_data_editor

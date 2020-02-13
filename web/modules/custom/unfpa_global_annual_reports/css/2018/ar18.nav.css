@@ -1,0 +1,342 @@
+.ar18-nav {
+  position: relative;
+  z-index: 20;
+}
+
+.ar18-nav a,
+.ar18-nav button {
+  display: block;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |                    NAVIGATION BAR                   |
+ * '-----------------------------------------------------'
+ */
+
+.ar18-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.8s cubic-bezier(.17,.67,.47,1), opacity 0.8s cubic-bezier(.17,.67,.47,1);
+}
+
+.ar18-navbar-menu-opened {
+  opacity: 0;
+}
+
+.ar18-navbar-inner {
+  padding: 12px 20px 0 20px;
+  overflow: hidden;
+}
+
+.ar18 .ar18-navbar a,
+.ar18 .ar18-navbar button {
+  color: #07081b;
+  text-transform: uppercase;
+}
+
+.ar18 .ar18-navbar a:hover,
+.ar18 .ar18-navbar button:hover {
+  color: #e03737;
+}
+
+/* Defaults */
+.ar18-navbar a,
+.ar18-navbar button,
+.ar18-nav-current {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+/* --- Controls / Logo --- */
+
+a.ar18-nav-logo {
+  float: left;
+  padding-top: 2px;
+  margin-right: 12px;
+}
+
+a.ar18-nav-logo img {
+  float: left;
+  height: 24px;
+  width: 52px;
+}
+
+.ar18-nav-current {
+  float: left;
+}
+
+/* --- Links --- */
+
+.ar18-nav-links {
+  float: right;
+}
+
+.ar18-nav-links-inner {
+  float: left;
+}
+
+.ar18-nav-links a,
+.ar18-nav-links button {
+  float: left;
+  margin-left: 36px;
+}
+
+.ar18-nav-links a.ar18-nav-lang {
+  margin-left: 12px;
+}
+
+.ar18 .ar18-navbar .ar18-nav-lang {
+  display: none;
+}
+
+button.ar18-nav-expand {
+  background: url(../../images/2018/nav/images/icon-expand.svg) center center no-repeat;
+  background-size: 28px 16px;
+  width: 28px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* --- Share Link --- */
+
+.ar18-nav .ar18-sharelink {
+  float: left;
+  height: 28px;
+  width: 20px;
+  overflow: hidden;
+  margin-left: 36px;
+}
+
+.ar18-nav .ar18-sharelink a {
+  height: 46px;
+  width: 46px;
+  margin-top: -9px;
+  margin-left: -15px;
+}
+
+
+.ar18-nav .ar18-sharelink a:hover svg {
+  opacity: 1;
+}
+
+.ar18-nav .ar18-sharelink a:hover svg.ar18-sharelink-hover {
+  display: none;
+}
+
+.ar18-nav .ar18-sharelink svg circle {
+  opacity: 1!important;
+  display: none;
+}
+
+/* Custom icon. */
+.ar18-nav .ar18-sharelink a {
+  height: 22px;
+  width: 20px;
+  margin-top: 3px;
+  margin-left: 0;
+  background: url(../../images/2018/nav/images/nav-share.svg) center center no-repeat;
+  background-size: 20px 22px;
+}
+
+.ar18-nav .ar18-sharelink svg {
+  display: none;
+}
+
+/* --- Responsive --- */
+
+@media all and (max-width: 500px) {
+  .ar18-nav-current {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .ar18 .ar18-navbar .ar18-nav-lang {
+    display: block;
+  }
+}
+
+/*
+ * .-----------------------------------------------------.
+ * |                   NAVIGATION MENU                   |
+ * '-----------------------------------------------------'
+ */
+
+.ar18-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none;
+  max-width: 550px;
+}
+
+.ar18-menu-inner {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(100%, 0);
+  transition: transform 0.8s cubic-bezier(.17,.67,.47,1);
+  background: #4d6171;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ar18-menu-opened {
+  pointer-events: all;
+}
+
+.ar18-menu-opened .ar18-menu-inner {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+button.ar18-menu-close {
+  background: url(../../images/2018/nav/images/icon-close.svg) center center no-repeat;
+  background-size: 24px 24px;
+  width: 28px;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.ar18-menu ul,
+.ar18-menu ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ar18 .ar18-menu a,
+.ar18 .ar18-menu a.active {
+  display: block;
+  padding: 10px 0;
+  color: #f9a801;
+  font-size: 20px;
+  line-height: 22px;
+  position: relative;
+}
+
+.ar18 .ar18-menu a:hover,
+.ar18 .ar18-menu a.active:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ar18 .ar18-menu a.ar18-menu-sub,
+.ar18 .ar18-menu a.ar18-menu-sub.active {
+  color: #fff;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 6px 0;
+}
+
+.ar18 .ar18-menu a:hover:before,
+.ar18 .ar18-menu a.active:before {
+  content: '';
+  width: 12px;
+  height: 0;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  left: -24px;
+  top: 50%;
+  margin-top: -1px;
+}
+
+.ar18 .ar18-menu .ar18-menu-langs {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 12px -24px 0;
+  padding: 10px 24px;
+  overflow: hidden;
+}
+
+.ar18 .ar18-menu .ar18-menu-langs li {
+  float: left;
+  padding-right: 24px;
+}
+
+.ar18 .ar18-menu .ar18-menu-langs li:last-child {
+  padding-right: 0;
+}
+
+.ar18 .ar18-menu .ar18-menu-langs a:hover:before,
+.ar18 .ar18-menu .ar18-menu-langs a.active:before {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .ar18-menu-inner {
+    padding: 44px 90px;
+  }
+
+  button.ar18-menu-close {
+    top: 60px;
+    right: 60px;
+  }
+
+  .ar18 .ar18-menu a,
+  .ar18 .ar18-menu a.active {
+    padding: 12px 0;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .ar18 .ar18-menu a:hover:before,
+  .ar18 .ar18-menu a.active:before {
+    width: 50px;
+    left: -90px;
+  }
+
+  .ar18 .ar18-menu a.ar18-menu-sub,
+  .ar18 .ar18-menu a.ar18-menu-sub.active {
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 6px 0;
+  }
+
+  .ar18 .ar18-menu .ar18-menu-langs {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (min-height: 800px) {
+  .ar18 .ar18-menu a,
+  .ar18 .ar18-menu a.active {
+    font-size: 34px;
+    line-height: 38px;
+  }
+
+  .ar18-menu {
+    max-width: 600px;
+  }
+}
+
+@media all and (max-height: 600px) {
+  .ar18 .ar18-menu a,
+  .ar18 .ar18-menu a.active {
+    padding: 6px 0;
+  }
+}

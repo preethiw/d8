@@ -1,0 +1,21 @@
+uuid: 0b51eb30-9d48-4c16-a446-b1ab0c7a2331
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.slideshow
+  module:
+    - metatag
+id: node.slideshow.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: slideshow
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

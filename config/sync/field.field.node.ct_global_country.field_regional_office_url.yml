@@ -1,0 +1,23 @@
+uuid: 512d0ded-3734-41c3-a422-2c93a759cdcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_regional_office_url
+    - node.type.ct_global_country
+  module:
+    - link
+id: node.ct_global_country.field_regional_office_url
+field_name: field_regional_office_url
+entity_type: node
+bundle: ct_global_country
+label: 'Regional office URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

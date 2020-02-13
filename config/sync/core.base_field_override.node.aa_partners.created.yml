@@ -1,0 +1,18 @@
+uuid: 249db7f8-0f76-4504-a5b4-d7952ed1395c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aa_partners
+id: node.aa_partners.created
+field_name: created
+entity_type: node
+bundle: aa_partners
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

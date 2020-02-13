@@ -1,0 +1,19 @@
+uuid: 46c807d2-f676-4485-9a9d-253cba482d23
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_open_data_portal_url
+field_name: field_open_data_portal_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

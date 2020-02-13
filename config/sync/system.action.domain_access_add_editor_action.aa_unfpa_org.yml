@@ -1,0 +1,14 @@
+uuid: 57ab0e05-6544-4299-b21d-e04c6b0b8300
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.aa_unfpa_org
+  module:
+    - domain_access
+id: domain_access_add_editor_action.aa_unfpa_org
+label: 'Add editors to the UNFPA Administrative Agent domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id: aa_unfpa_org

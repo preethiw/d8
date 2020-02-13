@@ -1,0 +1,24 @@
+uuid: 9762cd47-2a4d-4188-afdf-3c5a9dfdaba6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematic_area
+    - node.type.slideshow
+id: node.slideshow.field_thematic_area
+field_name: field_thematic_area
+entity_type: node
+bundle: slideshow
+label: 'Thematic Area'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles: {  }
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

@@ -1,0 +1,27 @@
+uuid: e723d89a-c373-4937-8872-6c53449b1b8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_publish_on_home
+field_name: field_publish_on_home
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'yes'
+      label: 'Yes'
+    -
+      value: 'no'
+      label: 'No'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

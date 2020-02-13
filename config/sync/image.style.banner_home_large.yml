@@ -1,0 +1,15 @@
+uuid: 3e438b1a-e21f-4f5f-83c3-b43458af91ad
+langcode: en
+status: true
+dependencies: {  }
+name: banner_home_large
+label: 'Banner Home Large'
+effects:
+  2648e170-9d1c-4c72-910f-053cc24c0b29:
+    uuid: 2648e170-9d1c-4c72-910f-053cc24c0b29
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 680
+      height: 360
+      anchor: center-center

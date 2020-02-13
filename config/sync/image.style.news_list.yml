@@ -1,0 +1,15 @@
+uuid: 25e56f35-cac5-4b5e-ae00-aec0a536205a
+langcode: en
+status: true
+dependencies: {  }
+name: news_list
+label: 'News List'
+effects:
+  3f1bec49-f211-4bbf-b726-a8e56f13a869:
+    uuid: 3f1bec49-f211-4bbf-b726-a8e56f13a869
+    id: image_scale
+    weight: 2
+    data:
+      width: 280
+      height: null
+      upscale: false

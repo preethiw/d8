@@ -1,0 +1,37 @@
+uuid: 43c711a6-19bc-416e-a861-6cea0c09e645
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_languages.field_domain_access
+    - field.field.node.ct_languages.field_domain_all_affiliates
+    - field.field.node.ct_languages.field_domain_source
+    - field.field.node.ct_languages.field_language_code
+    - field.field.node.ct_languages.field_metatag
+    - node.type.ct_languages
+  module:
+    - user
+id: node.ct_languages.default
+targetEntityType: node
+bundle: ct_languages
+mode: default
+content:
+  field_language_code:
+    label: above
+    weight: 12
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_domain_source: true
+  field_metatag: true
+  langcode: true

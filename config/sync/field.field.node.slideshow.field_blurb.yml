@@ -1,0 +1,19 @@
+uuid: de232f18-5f2d-4f29-8910-a0a7a767f54e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blurb
+    - node.type.slideshow
+id: node.slideshow.field_blurb
+field_name: field_blurb
+entity_type: node
+bundle: slideshow
+label: Blurb
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

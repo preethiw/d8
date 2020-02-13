@@ -1,0 +1,14 @@
+uuid: c8a59cdc-e66c-4af6-a236-89449945e447
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.programme_country_editor
+  module:
+    - user
+id: user_remove_role_action.programme_country_editor
+label: 'Remove the Programme Country editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: programme_country_editor

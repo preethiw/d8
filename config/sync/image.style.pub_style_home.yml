@@ -1,0 +1,15 @@
+uuid: 0883d1c3-1d05-4eb9-ad46-e792ee9e151f
+langcode: en
+status: true
+dependencies: {  }
+name: pub_style_home
+label: 'Pub Home'
+effects:
+  25c44260-b3ec-4dfb-bcb3-591e1ed7d056:
+    uuid: 25c44260-b3ec-4dfb-bcb3-591e1ed7d056
+    id: image_scale
+    weight: -10
+    data:
+      width: 82
+      height: null
+      upscale: false

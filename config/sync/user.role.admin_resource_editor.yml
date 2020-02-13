@@ -1,0 +1,43 @@
+uuid: 394a641e-4c8b-4ee2-a65f-b0a414a50a5e
+langcode: en
+status: true
+dependencies: {  }
+id: admin_resource_editor
+label: 'Admin resource editor'
+weight: 9
+is_admin: null
+permissions:
+  - 'access ckeditor link'
+  - 'access content overview'
+  - 'access overlay'
+  - 'access toolbar'
+  - 'access workbench'
+  - 'access workbench access by role'
+  - 'add media from remote sources'
+  - 'bypass workbench moderation'
+  - 'clear current page varnish cache'
+  - 'create ct_administrative_resource content'
+  - 'delete any ct_administrative_resource content'
+  - 'delete own ct_administrative_resource content'
+  - 'delete revisions'
+  - 'edit any ct_administrative_resource content'
+  - 'edit media'
+  - 'edit own ct_administrative_resource content'
+  - 'import media'
+  - 'moderate content from draft to needs_review'
+  - 'moderate content from needs_review to draft'
+  - 'moderate content from needs_review to published'
+  - 'revert revisions'
+  - 'show format selection for node'
+  - 'translate content'
+  - 'use text format custom_html'
+  - 'use text format full_html'
+  - 'use workbench_moderation my drafts tab'
+  - 'use workbench_moderation needs review tab'
+  - 'view all unpublished content'
+  - 'view moderation history'
+  - 'view moderation messages'
+  - 'view own unpublished content'
+  - 'view revisions'
+  - 'view the administration theme'
+  - 'view unpublished domain content'
