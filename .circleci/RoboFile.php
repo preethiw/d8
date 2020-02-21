@@ -18,7 +18,7 @@ class RoboFile extends \Robo\Tasks
      *
      * @var string
      */
-    const DB_URL = 'mysql://root@127.0.0.1/drupal8';
+    const DB_URL = 'mysql://root@127.0.0.1/unfpa';
 
     /**
      * Command to run unit tests.
@@ -89,7 +89,6 @@ class RoboFile extends \Robo\Tasks
      * This task assumes that there is an environment variable $DB_DUMP_URL
      * that contains a URL to a database dump. Ideally, you should set up drush
      * site aliases and then replace this task by a drush sql-sync one. See the
-     * README at lullabot/drupal8ci for further details.
      *
      * @return \Robo\Task\Base\Exec[]
      *   An array of tasks.
@@ -98,12 +97,12 @@ class RoboFile extends \Robo\Tasks
     {
         $force = true;
         $tasks = [];
-        $tasks[] = $this->taskExec('mysql -u root -h 127.0.0.1 -e "create database drupal8"');
-        $tasks[] = $this->taskFilesystemStack()
+        $tasks[] = $this->taskExec('mysql -u root -h 127.0.0.1 -e "create database unfpa"');
+	$tasks[] = $this->taskFilesystemStack()
             ->copy('.circleci/config/settings.local.php', 'web/sites/default/settings.local.php', $force);
-        $tasks[] = $this->taskExec('wget -O dump.sql ' . getenv('DB_DUMP_URL'));
-        $tasks[] = $this->drush()->rawArg('sql-cli < dump.sql');
-        return $tasks;
+        $tasks[] = $this->taskExec('wget -O unfpa.sql ' . getenv('DB_DUMP_URL'));
+	$tasks[] = $this->drush()->rawArg('sql-cli < unfpa.sql');
+	return $tasks;
     }
 
     /**
@@ -245,8 +244,8 @@ class RoboFile extends \Robo\Tasks
     protected function drush()
     {
         // Drush needs an absolute path to the docroot.
-        $docroot = $this->getDocroot() . '/web';
-        return $this->taskExec('vendor/bin/drush')
+        $docroot = $this->getDocroot();
+	return $this->taskExec('vendor/bin/drush')
             ->option('root', $docroot, '=');
     }
 
